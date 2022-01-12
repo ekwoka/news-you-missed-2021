@@ -7,7 +7,9 @@
     "serve": "sirv build --port 8080 --cors --single",
     "dev": "preact watch",
     "lint": "eslint src",
-    "test": "jest"
+    "test": "jest",
+    "upgrade": "ncu -u && pnpm i && git add . && get commit -m ':arrow_up: Dependencies' && npm version patch",
+    "postinstall": "pnpm build"
   },
   "eslintConfig": {
     "extends": "preact",
