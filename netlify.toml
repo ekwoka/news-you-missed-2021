@@ -1,8 +1,11 @@
 # example netlify.toml
 [build]
-  command = "pnpm build || ( npm install pnpm && pnpm build )"
+  command = "npx pnpm install -r --store=node_modules/.pnpm-store && pnpm build || npm run build"
   functions = "api"
   publish = "./build"
+
+[build.environment]
+  NPM_FLAGS="--prefix=/dev/null"
 
 [context.production.environment]
   NODE_VERSION = '17.3.1'
