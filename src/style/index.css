@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .container {
+        position: relative;
+        width: 100%;
+        max-width: 1500px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+      }
+      .container svg {
+        margin: 1em 0;
+        transition: 2s;
+        display: flex;
+        justify-content: center;
+        width: 1009px;
+        height: 665px;
+        max-width: 100vw;
+      }
+      .container svg .land {
+        transition: 300ms;
+        fill-opacity: 1;
+        stroke: #0d002c;
+        stroke-opacity: 1;
+        stroke-width: 0.5;
+      }
+      .container svg .land:hover {
+        cursor: pointer;
+      }
+      .container svg .colorFill {
+        fill: #961c05;
+      }
+      .container svg .colorFill:hover {
+        cursor: pointer;
+        fill: #961c05;
+      }
+}
