@@ -5,7 +5,7 @@
   publish = "./build"
 
 [build.environment]
-  NPM_FLAGS="--prefix=/"
+  NPM_FLAGS="--version"
 
 [context.production.environment]
   NODE_VERSION = '17.3.1'
