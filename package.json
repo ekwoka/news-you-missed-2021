@@ -1,6 +1,6 @@
 {
   "name": "newsreflection",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A site made for Webjam Winter 2022",
   "scripts": {
     "build": "preact build",
