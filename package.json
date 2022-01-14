@@ -8,8 +8,7 @@
     "dev": "preact watch",
     "lint": "eslint src",
     "test": "jest",
-    "upgrade": "ncu -u && pnpm i && git add . && get commit -m ':arrow_up: Dependencies' && npm version patch",
-    "postinstall": "pnpm build"
+    "upgrade": "ncu -u && pnpm i && git add . && get commit -m ':arrow_up: Dependencies' && npm version patch"
   },
   "eslintConfig": {
     "extends": "preact",
