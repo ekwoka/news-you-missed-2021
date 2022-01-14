@@ -1,104 +1,67 @@
-import React from 'react';
 import { ReactSVG } from 'react-svg';
-import style from "./map.css";
+import { useState } from 'preact/hooks';
 
-class Map extends React.Component{
+const offset = [];
+let offsetFactor = 0;
 
-    constructor(props){
-        super(props);
-        this.state={
-          name: '',
-          id: '',
-          render: false
-        }
-
-    }
-
-    handleNameChange = event =>{
-
-        this.setState({
-            name: event.target.value.toLowerCase(),
-            render: false
-        })
-
-    }
-
-    handleBtnClick = event =>{
-
-        event.preventDefault()
-
-        const path=document.querySelector(`path[title="${this.state.name}"]`);
-
-        if(path !== null){
-          const pathId=path.id;
-          path.classList.add('colorFill');
-          event.target.classList.remove('error');
-          this.setState({
-              id: pathId,
-              render: true
-          })
-        } else {
-          event.target.classList.add('error');
-        }
-
-
-    }
-
-   handleClearBtn = event => {
-    event.preventDefault();
-    if (this.state.id.length !== 0){
-      const pathColor=document.querySelector(`path[id=${this.state.id}]`);
-      pathColor.classList.remove('colorFill');
-    }
-
-
-  }
-
-    renamePathIdTitle() {
-        const paths = document.querySelectorAll('path');
-        paths.forEach( path => {
-            path.setAttribute('id', path.getAttribute('id').toLowerCase());
-            path.setAttribute('title', path.getAttribute('title').toLowerCase());
-        })
-
-        if (this.state.id){
-            console.log (this.state.id);
-            const path = document.querySelector(`path#${this.state.id}`);
-            path.classList.add('colorFill');
-        }
-
-    }
-
-    handleMapClick = event => {
-        event.preventDefault();
-
-        const countryName = event.target.getAttribute('title');
-
-        if(countryName !== null) {
-          const path = document.querySelector(`path[title="${countryName}"]`);
-          path.classList.add('colorFill');
-          this.setState({
-              id: path.id,
-              render: true,
-          });
-        }
-    };
-
-
-    render(){
-
-
-        return <div className = 'container'>
-                  <div className='map' onClick={this.handleMapClick}>
-                    <ReactSVG
-                      src="assets/worldHigh.svg"
-                      callback={svg => this.renamePathIdTitle()}
-                      className="svg"
-                    />
-                  </div>
-                  {this.state.render}
-                </div>
-    }
+function getSize(err, svg) {
+  if (offset.length >= 2) return;
+  console.log(svg);
+  const { width, height } = svg.getBBox();
+  offset.push(width, height);
+  offsetFactor = width / svg.getBoundingClientRect().width;
+  console.log(offset);
+  console.log(offsetFactor);
 }
 
-export default Map
+export default function Map() {
+  const [active, setActive] = useState(undefined);
+  const [target, setTarget] = useState(undefined);
+  const [scale, setScale] = useState(1);
+
+  function selectCountry({ target }) {
+    if (!target.id) return;
+    console.log(active, target.getAttribute('title'));
+    if (active == target.getAttribute('title')) {
+      setActive(undefined);
+      setTarget(undefined);
+      return;
+    }
+    console.log(target.getAttribute('title'));
+    console.log(target.getBBox());
+    console.log(target.getBoundingClientRect());
+    setActive(target.getAttribute('title'));
+    retarget(target.getBBox());
+  }
+
+  function retarget({ x, y, width, height }) {
+    console.log(x, y);
+    y = y + height / 2;
+    x = x + width / 2;
+    let newTarget = {};
+    newTarget.y = offset[1] / 2 / offsetFactor - y / offsetFactor;
+    newTarget.x = offset[0] / 2 / offsetFactor - x / offsetFactor;
+    console.log(newTarget);
+    setTarget(newTarget);
+    console.log(1 / Math.max(width / offset[0], height / offset[1]));
+    setScale(0.5 / Math.max(width / offset[0], height / offset[1]));
+  }
+
+  return (
+    <section role="complementary" className="relative flex flex-col items-center w-full px-8 mx-auto overflow-hidden max-w-screen-2xl bg-gray-50">
+      <style>
+        {`.map-svg path[title='${active}'] {
+          fill: #${Math.floor(Math.random() * 16777215).toString(16)};
+        }`}
+        {target
+          ? `.map-svg {
+          transform: scale(${scale}) translate(${target.x}px, ${target.y}px);
+          }`
+          : `.map-svg {
+            transform: scale(${scale}) translate(0px, 0px);
+        }`}
+      </style>
+      <ReactSVG src="assets/worldHigh.svg" onClick={selectCountry} afterInjection={getSize} className="w-full duration-[2s] map-svg trasnition-transform" />
+    </section>
+  );
+}
