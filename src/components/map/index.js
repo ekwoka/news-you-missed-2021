@@ -25,6 +25,7 @@ export default function Map() {
     if (active == target.getAttribute('title')) {
       setActive(undefined);
       setTarget(undefined);
+      setScale(1);
       return;
     }
     console.log(target.getAttribute('title'));
