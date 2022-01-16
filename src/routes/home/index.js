@@ -1,4 +1,3 @@
-import { h } from 'preact';
 import Hero from "../../components/hero";
 import Map from "../../components/map";
 
