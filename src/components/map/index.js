@@ -1,50 +1,42 @@
 import { ReactSVG } from 'react-svg';
 import { useState } from 'preact/hooks';
+import { useGlobalState } from '../../plugins/preact/globalState';
 
 const offset = [];
 let offsetFactor = 0;
 
 function getSize(err, svg) {
   if (offset.length >= 2) return;
-  console.log(svg);
   const { width, height } = svg.getBBox();
   offset.push(width, height);
   offsetFactor = width / svg.getBoundingClientRect().width;
-  console.log(offset);
-  console.log(offsetFactor);
 }
 
 export default function Map() {
-  const [active, setActive] = useState(undefined);
+  const [active, setActive] = useGlobalState('country');
   const [target, setTarget] = useState(undefined);
   const [scale, setScale] = useState(1);
 
   function selectCountry({ target }) {
     if (!target.id) return;
-    console.log(active, target.getAttribute('title'));
     if (active == target.getAttribute('title')) {
       setActive(undefined);
       setTarget(undefined);
       setScale(1);
       return;
     }
-    console.log(target.getAttribute('title'));
-    console.log(target.getBBox());
-    console.log(target.getBoundingClientRect());
     setActive(target.getAttribute('title'));
     retarget(target.getBBox());
   }
 
   function retarget({ x, y, width, height }) {
-    console.log(x, y);
     y = y + height / 2;
     x = x + width / 2;
-    let newTarget = {};
-    newTarget.y = offset[1] / 2 / offsetFactor - y / offsetFactor;
-    newTarget.x = offset[0] / 2 / offsetFactor - x / offsetFactor;
-    console.log(newTarget);
+    let newTarget = {
+      y: offset[1] / 2 / offsetFactor - y / offsetFactor,
+      x: offset[0] / 2 / offsetFactor - x / offsetFactor
+    };
     setTarget(newTarget);
-    console.log(1 / Math.max(width / offset[0], height / offset[1]));
     setScale(0.5 / Math.max(width / offset[0], height / offset[1]));
   }
 
@@ -63,7 +55,7 @@ export default function Map() {
         }`}
       </style>
       <ReactSVG src="assets/worldHigh.svg" onClick={selectCountry} afterInjection={getSize} className="w-full duration-[2s] map-svg trasnition-transform" />
-      
+
       <div class="absolute bottom-1 z-10 rounded shadow bg-gray-100 py-2 px-4 min-w-max max-w-sm mx-auto">{active || 'Select a country on the map'}</div>
     </section>
   );
