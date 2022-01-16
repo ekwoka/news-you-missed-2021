@@ -1,6 +1,7 @@
 import { ReactSVG } from 'react-svg';
 import { useState } from 'preact/hooks';
 import { useGlobalState } from '../../plugins/preact/globalState';
+import { route } from 'preact-router';
 
 const offset = [];
 let offsetFactor = 0;
@@ -25,6 +26,7 @@ export default function Map() {
       setScale(1);
       return;
     }
+    route(`/country/${target.getAttribute('title')}`);
     setActive(target.getAttribute('title'));
     retarget(target.getBBox());
   }
