@@ -2,7 +2,7 @@ node_modules
 /build
 /*.log
 *-lock*
+size-plugin.json
 
 # Local Netlify folder
 .netlify
-size-plugin.json
