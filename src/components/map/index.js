@@ -49,7 +49,7 @@ export default function Map() {
   }
 
   return (
-    <section role="complementary" className="relative flex flex-col items-center w-full px-8 mx-auto overflow-hidden max-w-screen-2xl bg-gray-50">
+    <section role="complementary" className="relative flex flex-col items-center w-full px-8 pb-4 mx-auto overflow-hidden max-w-screen-2xl bg-gray-50">
       <style>
         {`.map-svg path[title='${active}'] {
           fill: #${Math.floor(Math.random() * 16777215).toString(16)};
@@ -63,6 +63,8 @@ export default function Map() {
         }`}
       </style>
       <ReactSVG src="assets/worldHigh.svg" onClick={selectCountry} afterInjection={getSize} className="w-full duration-[2s] map-svg trasnition-transform" />
+      
+      <div class="absolute bottom-1 z-10 rounded shadow bg-gray-100 py-2 px-4 min-w-max max-w-sm mx-auto">{active || 'Select a country on the map'}</div>
     </section>
   );
 }
