@@ -6,17 +6,23 @@ import { route } from 'preact-router';
 const offset = [];
 let offsetFactor = 0;
 
-function getSize(err, svg) {
-  if (offset.length >= 2) return;
-  const { width, height } = svg.getBBox();
-  offset.push(width, height);
-  offsetFactor = width / svg.getBoundingClientRect().width;
-}
-
-export default function Map() {
+export default function Map({ country }) {
   const [active, setActive] = useGlobalState('country');
   const [target, setTarget] = useState(undefined);
   const [scale, setScale] = useState(1);
+
+  function init(err, svg) {
+    if (offset.length >= 2) return;
+    const { width, height } = svg.getBBox();
+    offset.push(width, height);
+    offsetFactor = width / svg.getBoundingClientRect().width;
+
+    if (!country) return;
+    const countryEl = svg.querySelector(`path[title="${country}"]`);
+
+    if (!countryEl) return;
+    selectCountry({ target: countryEl });
+  }
 
   function selectCountry({ target }) {
     if (!target.id) return;
@@ -26,7 +32,7 @@ export default function Map() {
       setScale(1);
       return;
     }
-    route(`/country/${target.getAttribute('title')}`);
+    route(`/map/${target.getAttribute('title')}`);
     setActive(target.getAttribute('title'));
     retarget(target.getBBox());
   }
@@ -43,7 +49,7 @@ export default function Map() {
   }
 
   return (
-    <section role="complementary" className="relative flex flex-col items-center w-full px-8 pb-4 mx-auto overflow-hidden max-w-screen-2xl bg-gray-50">
+    <section role="complementary" className="relative flex flex-col items-center w-full px-8 pb-4 mx-auto overflow-hidden bg-gray-50">
       <style>
         {`.map-svg path[title='${active}'] {
           fill: #${Math.floor(Math.random() * 16777215).toString(16)};
@@ -56,7 +62,7 @@ export default function Map() {
             transform: scale(${scale}) translate(0px, 0px);
         }`}
       </style>
-      <ReactSVG src="assets/worldHigh.svg" onClick={selectCountry} afterInjection={getSize} className="w-full duration-[2s] map-svg trasnition-transform" />
+      <ReactSVG src="/assets/worldHigh.svg" onClick={selectCountry} afterInjection={init} className="w-full max-w-screen-md duration-[2s] map-svg trasnition-transform" />
 
       <div class="absolute bottom-1 z-10 rounded shadow bg-gray-100 py-2 px-4 min-w-max max-w-sm mx-auto">{active || 'Select a country on the map'}</div>
     </section>
