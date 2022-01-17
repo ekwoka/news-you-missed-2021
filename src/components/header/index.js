@@ -1,8 +1,11 @@
 import { Link } from 'preact-router/match';
 
-const navigation = [
+const NAVIGATION = [
   { name: 'Map', href: '/map' },
-  { name: 'Random', href: '/random' }
+  { name: 'Random', href: '/random' },
+  { name: 'Table', href: '/table' },
+  { name: 'Favorites', href: '/favorites' },
+  { name: 'Search', func: 'openSearch' }
 ];
 
 export default function Header() {
@@ -16,24 +19,16 @@ export default function Header() {
               <h1 className="text-xl font-semibold tracking-wide text-emerald-50">News You Missed 2021</h1>
             </Link>
             <main-nav className="hidden ml-10 space-x-8 lg:block">
-              {navigation.map((link) => (
+              {NAVIGATION.map((link) => (
                 <Link key={link.name} href={link.href} className="text-base font-medium text-emerald-50 hover:text-white">
                   {link.name}
                 </Link>
               ))}
             </main-nav>
           </div>
-          {/* <top-buttons className="block ml-10 space-x-4">
-            <a href="https://github.com/ekwoka/newsreflection" className="inline-block px-4 py-2 text-base font-medium border border-transparent rounded-md text-emerald-50 bg-emerald-500 hover:bg-opacity-75">
-              Sign in
-            </a>
-            <Link href="/" className="inline-block px-4 py-2 text-base font-medium bg-white border border-transparent rounded-md text-emerald-600 hover:bg-emerald-50">
-              Sign up
-            </Link>
-          </top-buttons> */}
         </top-nav>
         <nav-bar className="flex flex-wrap justify-center py-4 space-x-6 lg:hidden">
-          {navigation.map((link) => (
+          {NAVIGATION.map((link) => (
             <Link key={link.name} href={link.href} className="text-base font-medium text-emerald-50 hover:text-white">
               {link.name}
             </Link>
