@@ -7,6 +7,7 @@ import Header from './header';
 import Home from '../routes/home';
 import Map from '../routes/map';
 import Article from '../routes/article';
+import Random from '../routes/random';
 
 const App = () => (
   <div id="app">
@@ -16,6 +17,7 @@ const App = () => (
       <Map path="/map" country="undefined" />
       <Map path="/map/:country" />
       <Article path="/country/:country" />
+	  <Random path="/random" />
     </Router>
   </div>
 );
