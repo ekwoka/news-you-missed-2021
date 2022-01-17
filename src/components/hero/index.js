@@ -53,7 +53,7 @@ export default function Hero() {
             <div className="flex-1 w-full bg-emerald-900" />
           </div>
           <div className="px-4 mx-auto max-w-7xl sm:px-6">
-            <img className="relative rounded-lg shadow-lg" src="https://tailwindui.com/img/component-images/top-nav-with-multi-column-layout-screenshot.jpg" alt="App screenshot" />
+            <img className="relative rounded-lg shadow-lg" src="https://placekitten.com/300/300" srcset="https://placekitten.com/500/500 500w, https://placekitten.com/800/800 800w, https://placekitten.com/1200/1200 1200w, https://placekitten.com/1500/1500 1500w, https://placekitten.com/1800/1800 1800w, https://placekitten.com/2100/2100 2100w" alt="App screenshot" />
           </div>
         </div>
       </div>
