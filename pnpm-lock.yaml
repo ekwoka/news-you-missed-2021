@@ -10,6 +10,7 @@ overrides:
 
 specifiers:
   '@heroicons/react': ^1.0.5
+  '@preact/prerender-data-provider': ^3.0.1
   '@tailwindcss/typography': ^0.5.0
   autoprefixer: ^10.4.2
   enzyme: ^3.11.0
@@ -24,6 +25,7 @@ specifiers:
   postcss: ^8.4.5
   preact: ^10.6.4
   preact-cli: ^3.3.3
+  preact-cli-plugin-netlify: ^1.6.0
   preact-render-to-string: ^5.1.19
   preact-router: ^4.0.0
   react: npm:preact@^10.6.4
@@ -35,6 +37,7 @@ specifiers:
 
 dependencies:
   '@heroicons/react': 1.0.5_preact@10.6.4
+  '@preact/prerender-data-provider': 3.0.1_preact@10.6.4
   '@tailwindcss/typography': 0.5.0_tailwindcss@3.0.15
   jest: 27.4.7
   jest-preset-preact: 4.0.5_96f7084f07f67afb40aa46ed1904e7b4
@@ -42,6 +45,7 @@ dependencies:
   netlify-cms-app: 2.15.63_preact@10.6.4+preact@10.6.4
   netlify-identity-widget: 1.9.2
   preact: 10.6.4
+  preact-cli-plugin-netlify: 1.6.0
   preact-render-to-string: 5.1.19_preact@10.6.4
   preact-router: 4.0.0_preact@10.6.4
   react: /preact/10.6.4
@@ -1727,6 +1731,14 @@ packages:
       loader-utils: 2.0.2
       preact: 10.6.4
     dev: true
+
+  /@preact/prerender-data-provider/3.0.1_preact@10.6.4:
+    resolution: {integrity: sha512-Jox3VU2k4S/J0QL+tdRdnvZ7Cv/41cfWPWd7Xj8ZKqNZK85R7/UbsKIyvJHYI+YfBdR9MrDES+kjzzClkS8pHA==}
+    peerDependencies:
+      preact: ^10.0.0
+    dependencies:
+      preact: 10.6.4
+    dev: false
 
   /@prefresh/babel-plugin/0.4.1:
     resolution: {integrity: sha512-gj3ekiYtHlZNz0zFI1z6a9mcYX80Qacw84+2++7V1skvO7kQoV2ux56r8bJkTBbKMVxwAgaYrxxIdUCYlclE7Q==}
@@ -10316,6 +10328,10 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
     dev: true
+
+  /preact-cli-plugin-netlify/1.6.0:
+    resolution: {integrity: sha512-GO9V1/LCCiIt1AhDxWeqGJm6NLCCQmLDkgWH+32SER89n6nKHXHSaCIs5HHSVqOrf9kX8CYqUofp5A8ChZSBqg==}
+    dev: false
 
   /preact-cli/3.3.3_26ed57f0a92fea1141353e0a8157fcb1:
     resolution: {integrity: sha512-KyWiGo1GG/mTSvQhoHWOBKLEj8dWoezK2WOm9qj723jGRk37olT/GDhlYVrbgHYGXk+Dd4X/GGtVV+IaNpOXFw==}

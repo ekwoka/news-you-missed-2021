@@ -3,9 +3,9 @@
   "version": "0.4.1",
   "description": "A site made for Webjam Winter 2022",
   "scripts": {
-    "build": "preact build",
+    "build": "preact build --prerenderUrls ./prerender-urls.js",
     "serve": "sirv build --port 8080 --cors --single",
-    "dev": "preact watch",
+    "dev": "preact watch --prerenderUrls ./prerender-urls.js",
     "lint": "eslint src",
     "test": "jest",
     "upgrade": "ncu -u && pnpm i && git add . && git commit -m ':arrow_up: Dependencies' && pnpm version patch"
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^1.0.5",
+    "@preact/prerender-data-provider": "^3.0.1",
     "@tailwindcss/typography": "^0.5.0",
     "jest": "^27.4.7",
     "jest-preset-preact": "^4.0.5",
@@ -35,6 +36,7 @@
     "netlify-cms-app": "^2.15.63",
     "netlify-identity-widget": "^1.9.2",
     "preact": "^10.6.4",
+    "preact-cli-plugin-netlify": "^1.6.0",
     "preact-render-to-string": "^5.1.19",
     "preact-router": "^4.0.0",
     "react": "npm:preact@^10.6.4",
