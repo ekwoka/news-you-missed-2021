@@ -29,6 +29,9 @@
   "dependencies": {
     "@heroicons/react": "^1.0.5",
     "@tailwindcss/typography": "^0.5.0",
+    "markdown-to-jsx": "^7.1.6",
+    "netlify-cms-app": "^2.15.63",
+    "netlify-identity-widget": "^1.9.2",
     "preact": "^10.6.4",
     "preact-render-to-string": "^5.1.19",
     "preact-router": "^4.0.0",
