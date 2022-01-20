@@ -16,7 +16,7 @@ module.exports = () => {
 	pages.push(...articles.map(article => {
 		const data = fs.readFileSync(join('content', article.id), 'utf-8').replace(/---(.*\n)*---/, '');
 		return {
-			url: `/country/${article.id}`,
+			url: `/country/${article.id.replace('.md', '')}/`,
 			seo: article.details,
 			data: {
 				details: article.details,
