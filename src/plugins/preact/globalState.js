@@ -24,7 +24,7 @@ function GlobalState(initialValue) {
     }
     this.unsubscribe = function (itemToUnsubscribe) {
         this.subscribers = this.subscribers.filter(
-            function(subscriber) { return subscriber !== itemToUnsubscribe }
+            (subscriber) => { return subscriber !== itemToUnsubscribe }
         );
     }
 }
@@ -34,7 +34,7 @@ function Store() {
     this.value = {};
 
     this.init = function(obj) {
-        for (var i in obj) {
+        for (let i in obj) {
             this.setState(i, obj[i]);
         }
     }
@@ -59,15 +59,15 @@ function useGlobalState(key, defaultValue) {
     }
 
     const [, setState] = useState();
-    var globalState = store.getState(key, defaultValue);
+    let globalState = store.getState(key, defaultValue);
     
-    var currentState = globalState.getValue();
+    let currentState = globalState.getValue();
 
     function reRender() {
         setState({});
     }
 
-    useEffect(function() {
+    useEffect(() => {
         globalState.subscribe(reRender);
         return function() {
             globalState.unsubscribe(reRender);

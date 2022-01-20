@@ -62,9 +62,9 @@ export default function Hero() {
           <h2 className="text-sm font-semibold tracking-wide text-center uppercase text-emerald-300">Here's a few ways to explore</h2>
           <nav-options className="grid grid-cols-2 gap-4 px-4 mt-8 md:grid-cols-6 lg:grid-cols-5 text-emerald-100">
             {navOptions.map((option, i, options) => {
-              let classList = 'hover:bg-emerald-300 hover:text-emerald-800 flex justify-center lg:col-span-1 p-4 rounded-xl bg-emerald-900/0 transition-all duration-300 text-lg uppercase tracking-widest ' + ((options.length % 2 && options.length === i + 1) ? 'col-span-2 md:col-span-3' : 'col-span-1 md:col-span-2')
+              let classList = `hover:bg-emerald-300 hover:text-emerald-800 flex justify-center lg:col-span-1 p-4 rounded-xl bg-emerald-900/0 transition-all duration-300 text-lg uppercase tracking-widest ${((options.length % 2 && options.length === i + 1) ? 'col-span-2 md:col-span-3' : 'col-span-1 md:col-span-2')}`;
               return (
-              <Link href={option.href} className={classList}>
+              <Link href={option.href} className={classList} key={i}>
                 {option.name}
               </Link>
             )})}

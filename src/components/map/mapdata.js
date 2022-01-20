@@ -1,4 +1,4 @@
-var simplemaps_worldmap_mapdata={
+export default {
   main_settings: {
    //General settings
     width: "700", //'700' or 'responsive'
@@ -957,7 +957,7 @@ var simplemaps_worldmap_mapdata={
   },
   locations: {},
   regions: {
-    "0": {
+    0: {
       name: "North America",
       states: [
         "MX",
@@ -966,7 +966,7 @@ var simplemaps_worldmap_mapdata={
         "GL"
       ]
     },
-    "1": {
+    1: {
       name: "South America",
       states: [
         "EC",
@@ -997,7 +997,7 @@ var simplemaps_worldmap_mapdata={
         "BS"
       ]
     },
-    "2": {
+    2: {
       name: "Europe",
       states: [
         "IT",
@@ -1043,7 +1043,7 @@ var simplemaps_worldmap_mapdata={
         "UA"
       ]
     },
-    "3": {
+    3: {
       name: "Africa and the Middle East",
       states: [
         "QA",
@@ -1118,7 +1118,7 @@ var simplemaps_worldmap_mapdata={
         "ZW"
       ]
     },
-    "4": {
+    4: {
       name: "South Asia",
       states: [
         "TW",
@@ -1147,7 +1147,7 @@ var simplemaps_worldmap_mapdata={
         "CN"
       ]
     },
-    "5": {
+    5: {
       name: "North Asia",
       states: [
         "MN",
