@@ -24,10 +24,10 @@ specifiers:
   preact-cli: 3.3.3
   preact-cli-plugin-netlify: 1.6.0
   preact-render-to-string: ^5.1.19
-  preact-router: ^4.0.0
+  preact-router: ^4.0.1
   react: npm:preact@^10.6.4
   react-dom: npm:preact@^10.6.4
-  react-svg: ^14.1.8
+  react-svg: ^14.1.9
   sirv-cli: 2.0.2
   tailwindcss: ^3.0.15
   typescript: ^4.5.5
@@ -41,10 +41,10 @@ dependencies:
   preact: 10.6.4
   preact-cli-plugin-netlify: 1.6.0
   preact-render-to-string: 5.1.19_preact@10.6.4
-  preact-router: 4.0.0_preact@10.6.4
+  preact-router: 4.0.1_preact@10.6.4
   react: /preact/10.6.4
   react-dom: /preact/10.6.4
-  react-svg: 14.1.8_preact@10.6.4+preact@10.6.4
+  react-svg: 14.1.9_preact@10.6.4+preact@10.6.4
   tailwindcss: 3.0.15_ef48b3b8837f8a23677bffe8f9cd866d
   typescript: 4.5.5
 
@@ -8410,8 +8410,8 @@ packages:
       pretty-format: 3.8.0
     dev: false
 
-  /preact-router/4.0.0_preact@10.6.4:
-    resolution: {integrity: sha512-Y5f/G8ITHcw0vcJJ+drEsEcv4yHGeKJ78v3kF7AL6Ef35Lgoj+qPuRHarTeMBCXDzlmLWAqhmacfDNIgMa0+pw==}
+  /preact-router/4.0.1_preact@10.6.4:
+    resolution: {integrity: sha512-xPyHVLouc5oKIlKu9iEElplNygJYkOn/vfXfZhcoOFqzfAZHZMmT3FsQb0yyPkdt1rwTLFAxek6/5CFkofocSQ==}
     peerDependencies:
       preact: '>=10'
     dependencies:
@@ -8701,8 +8701,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-svg/14.1.8_preact@10.6.4+preact@10.6.4:
-    resolution: {integrity: sha512-YqiiPmCDH4fUH1hj9UehcE8EpTxo2O8zLwhDlmntxQN/KhdLNo3v2944j2K3WrlRms2RPPw9YO7e8+OJ/tVsjg==}
+  /react-svg/14.1.9_preact@10.6.4+preact@10.6.4:
+    resolution: {integrity: sha512-bppSZlXzRKOx3urMBwtCbcKaXS9zjM2epx9rLCJ9q4ONbc13KMavy5tZxtR72XSirNA3By4josvEQSmd3bxWhg==}
     peerDependencies:
       react: ^15.5.4 || ^16.0.0 || ^17.0.0
       react-dom: ^15.5.4 || ^16.0.0 || ^17.0.0
