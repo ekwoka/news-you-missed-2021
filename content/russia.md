@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: article
 title: Russia
 date: 2022-01-20T19:42:41.277Z
 thumbnail: /images/uploads/screen-shot-2021-08-16-at-11.48.34-pm.png
