@@ -29,12 +29,12 @@ specifiers:
   react-dom: npm:preact@^10.6.4
   react-svg: ^14.1.9
   sirv-cli: 2.0.2
-  tailwindcss: ^3.0.15
+  tailwindcss: ^3.0.16
   typescript: ^4.5.5
 
 dependencies:
   '@heroicons/react': 1.0.5_preact@10.6.4
-  '@tailwindcss/typography': 0.5.0_tailwindcss@3.0.15
+  '@tailwindcss/typography': 0.5.0_tailwindcss@3.0.16
   jest: 27.4.7
   jest-preset-preact: 4.0.5_96f7084f07f67afb40aa46ed1904e7b4
   markdown-to-jsx: 7.1.6_preact@10.6.4
@@ -45,7 +45,7 @@ dependencies:
   react: /preact/10.6.4
   react-dom: /preact/10.6.4
   react-svg: 14.1.9_preact@10.6.4+preact@10.6.4
-  tailwindcss: 3.0.15_ef48b3b8837f8a23677bffe8f9cd866d
+  tailwindcss: 3.0.16_ef48b3b8837f8a23677bffe8f9cd866d
   typescript: 4.5.5
 
 devDependencies:
@@ -1645,7 +1645,7 @@ packages:
       defer-to-connect: 1.1.3
     dev: true
 
-  /@tailwindcss/typography/0.5.0_tailwindcss@3.0.15:
+  /@tailwindcss/typography/0.5.0_tailwindcss@3.0.16:
     resolution: {integrity: sha512-1p/3C6C+JJziS/ghtG8ACYalbA2SyLJY27Pm33cVTlAoY6VQ7zfm2H64cPxUMBkVIlWXTtWHhZcZJPobMRmQAA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1 || insiders'
@@ -1654,7 +1654,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
-      tailwindcss: 3.0.15_ef48b3b8837f8a23677bffe8f9cd866d
+      tailwindcss: 3.0.16_ef48b3b8837f8a23677bffe8f9cd866d
     dev: false
 
   /@tanem/svg-injector/10.1.15:
@@ -9791,8 +9791,8 @@ packages:
   /symbol-tree/3.2.4:
     resolution: {integrity: sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==}
 
-  /tailwindcss/3.0.15_ef48b3b8837f8a23677bffe8f9cd866d:
-    resolution: {integrity: sha512-bT2iy7FtjwgsXik4ZoJnHXR+SRCiGR1W95fVqpLZebr64m4ahwUwRbIAc5w5+2fzr1YF4Ct2eI7dojMRRl8sVQ==}
+  /tailwindcss/3.0.16_ef48b3b8837f8a23677bffe8f9cd866d:
+    resolution: {integrity: sha512-1L8E5Wr+o1c4kxxObNz2owJe94a7BLEMV+2Lz6wzprJdcs3ENSRR9t4OZf2OqtRNS/q/zFPuOKoLtQoy3Lrhhw==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
