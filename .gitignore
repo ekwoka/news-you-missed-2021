@@ -6,3 +6,4 @@ size-plugin.json
 # Local Netlify folder
 .netlify
 *.vtt
+.obsidian
