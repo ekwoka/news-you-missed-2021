@@ -10,52 +10,52 @@ overrides:
 
 specifiers:
   '@heroicons/react': ^1.0.5
-  '@tailwindcss/typography': ^0.5.0
+  '@tailwindcss/typography': ^0.5.1
   autoprefixer: ^10.4.2
   enzyme: ^3.11.0
   enzyme-adapter-preact-pure: ^3.3.0
-  eslint: ^8.7.0
+  eslint: ^8.8.0
   eslint-config-preact: ^1.3.0
   jest: ^27.4.7
   jest-preset-preact: ^4.0.5
   markdown-to-jsx: ^7.1.6
   postcss: ^8.4.5
-  preact: 10.6.4
+  preact: 10.6.5
   preact-cli: 3.3.3
   preact-cli-plugin-netlify: 1.6.0
   preact-render-to-string: ^5.1.19
   preact-router: ^4.0.1
-  react: npm:preact@^10.6.4
-  react-dom: npm:preact@^10.6.4
+  react: npm:preact@^10.6.5
+  react-dom: npm:preact@^10.6.5
   react-svg: ^14.1.9
   sirv-cli: 2.0.2
-  tailwindcss: ^3.0.16
+  tailwindcss: ^3.0.18
   typescript: ^4.5.5
 
 dependencies:
-  '@heroicons/react': 1.0.5_preact@10.6.4
-  '@tailwindcss/typography': 0.5.0_tailwindcss@3.0.16
+  '@heroicons/react': 1.0.5_preact@10.6.5
+  '@tailwindcss/typography': 0.5.1_tailwindcss@3.0.18
   jest: 27.4.7
-  jest-preset-preact: 4.0.5_96f7084f07f67afb40aa46ed1904e7b4
-  markdown-to-jsx: 7.1.6_preact@10.6.4
-  preact: 10.6.4
+  jest-preset-preact: 4.0.5_826ac62b70be532ffb7a9b7cb8f3d801
+  markdown-to-jsx: 7.1.6_preact@10.6.5
+  preact: 10.6.5
   preact-cli-plugin-netlify: 1.6.0
-  preact-render-to-string: 5.1.19_preact@10.6.4
-  preact-router: 4.0.1_preact@10.6.4
-  react: /preact/10.6.4
-  react-dom: /preact/10.6.4
-  react-svg: 14.1.9_preact@10.6.4+preact@10.6.4
-  tailwindcss: 3.0.16_ef48b3b8837f8a23677bffe8f9cd866d
+  preact-render-to-string: 5.1.19_preact@10.6.5
+  preact-router: 4.0.1_preact@10.6.5
+  react: /preact/10.6.5
+  react-dom: /preact/10.6.5
+  react-svg: 14.1.9_preact@10.6.5+preact@10.6.5
+  tailwindcss: 3.0.18_ef48b3b8837f8a23677bffe8f9cd866d
   typescript: 4.5.5
 
 devDependencies:
   autoprefixer: 10.4.2_postcss@8.4.5
   enzyme: 3.11.0
-  enzyme-adapter-preact-pure: 3.3.0_enzyme@3.11.0+preact@10.6.4
-  eslint: 8.7.0
-  eslint-config-preact: 1.3.0_fba2f7198138739da2e4544725d6464d
+  enzyme-adapter-preact-pure: 3.3.0_enzyme@3.11.0+preact@10.6.5
+  eslint: 8.8.0
+  eslint-config-preact: 1.3.0_ee07baedc10f0b46d30cd9c14bf6940b
   postcss: 8.4.5
-  preact-cli: 3.3.3_26ed57f0a92fea1141353e0a8157fcb1
+  preact-cli: 3.3.3_65454c9440383f7307559d6b8f1375e0
   sirv-cli: 2.0.2
 
 packages:
@@ -104,7 +104,7 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@babel/eslint-parser/7.16.5_@babel+core@7.16.10+eslint@8.7.0:
+  /@babel/eslint-parser/7.16.5_@babel+core@7.16.10+eslint@8.8.0:
     resolution: {integrity: sha512-mUqYa46lgWqHKQ33Q6LNCGp/wPR3eqOYTUixHFsfrSQqRxH0+WOzca75iEjFr5RDGH1dDz622LaHhLOzOuQRUA==}
     engines: {node: ^10.13.0 || ^12.13.0 || >=14.0.0}
     peerDependencies:
@@ -112,7 +112,7 @@ packages:
       eslint: ^7.5.0 || ^8.0.0
     dependencies:
       '@babel/core': 7.16.10
-      eslint: 8.7.0
+      eslint: 8.8.0
       eslint-scope: 5.1.1
       eslint-visitor-keys: 2.1.0
       semver: 6.3.0
@@ -1245,12 +1245,12 @@ packages:
     resolution: {integrity: sha512-82cpyJyKRoQoRi+14ibCeGPu0CwypgtBAdBhq1WfvagpCZNKqwXbKwXllYSMG91DhmG4jt9gN8eP6lGOtozuaw==}
     dev: true
 
-  /@heroicons/react/1.0.5_preact@10.6.4:
+  /@heroicons/react/1.0.5_preact@10.6.5:
     resolution: {integrity: sha512-UDMyLM2KavIu2vlWfMspapw9yii7aoLwzI2Hudx4fyoPwfKfxU8r3cL8dEBXOjcLG0/oOONZzbT14M1HoNtEcg==}
     peerDependencies:
       react: '>= 16'
     dependencies:
-      react: /preact/10.6.4
+      react: /preact/10.6.5
     dev: false
 
   /@humanwhocodes/config-array/0.9.2:
@@ -1517,7 +1517,7 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@preact/async-loader/3.0.1_preact@10.6.4:
+  /@preact/async-loader/3.0.1_preact@10.6.5:
     resolution: {integrity: sha512-BoUN24hxEfAQYnWjliAmkZLuliv+ONQi7AWn+/+VOJHTIHmbFiXrvmSxITf7PDkKiK0a5xy4OErZtVVLlk96Tg==}
     engines: {node: '>=8'}
     peerDependencies:
@@ -1525,26 +1525,26 @@ packages:
     dependencies:
       kleur: 4.1.4
       loader-utils: 2.0.2
-      preact: 10.6.4
+      preact: 10.6.5
     dev: true
 
   /@prefresh/babel-plugin/0.4.1:
     resolution: {integrity: sha512-gj3ekiYtHlZNz0zFI1z6a9mcYX80Qacw84+2++7V1skvO7kQoV2ux56r8bJkTBbKMVxwAgaYrxxIdUCYlclE7Q==}
     dev: true
 
-  /@prefresh/core/1.3.2_preact@10.6.4:
+  /@prefresh/core/1.3.2_preact@10.6.5:
     resolution: {integrity: sha512-Iv+uI698KDgWsrKpLvOgN3hmAMyvhVgn09mcnhZ98BUNdg/qrxE7tcUf5yFCImkgqED5/Dcn8G5hFy4IikEDvg==}
     peerDependencies:
       preact: ^10.0.0
     dependencies:
-      preact: 10.6.4
+      preact: 10.6.5
     dev: true
 
   /@prefresh/utils/1.1.1:
     resolution: {integrity: sha512-MUhT5m2XNN5NsZl4GnpuvlzLo6VSTa/+wBfBd3fiWUvHGhv0GF9hnA1pd//v0uJaKwUnVRQ1hYElxCV7DtYsCQ==}
     dev: true
 
-  /@prefresh/webpack/3.3.2_528f3d5160422d1e331d38625621f385:
+  /@prefresh/webpack/3.3.2_1d48a6e12cc5d59517980d224253a501:
     resolution: {integrity: sha512-1cX0t5G7IXWO2164sl2O32G02BzDl6C4UUZWfDb0x1CQM1g3It9PSLWd+rIlHfSg4MEU9YHM8e6/OK8uavRJhA==}
     peerDependencies:
       '@prefresh/babel-plugin': ^0.4.0
@@ -1552,9 +1552,9 @@ packages:
       webpack: ^4.0.0 || ^5.0.0
     dependencies:
       '@prefresh/babel-plugin': 0.4.1
-      '@prefresh/core': 1.3.2_preact@10.6.4
+      '@prefresh/core': 1.3.2_preact@10.6.5
       '@prefresh/utils': 1.1.1
-      preact: 10.6.4
+      preact: 10.6.5
       webpack: 4.46.0
     dev: true
 
@@ -1645,16 +1645,15 @@ packages:
       defer-to-connect: 1.1.3
     dev: true
 
-  /@tailwindcss/typography/0.5.0_tailwindcss@3.0.16:
-    resolution: {integrity: sha512-1p/3C6C+JJziS/ghtG8ACYalbA2SyLJY27Pm33cVTlAoY6VQ7zfm2H64cPxUMBkVIlWXTtWHhZcZJPobMRmQAA==}
+  /@tailwindcss/typography/0.5.1_tailwindcss@3.0.18:
+    resolution: {integrity: sha512-AmSzZSgLhHKlILKduU+PKBTHL6c+al82syZlRid1xgmlWwXagLigO+O++B4C0scpMfzW//f/3YCRcwwEHWoU3w==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1 || insiders'
     dependencies:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
-      lodash.uniq: 4.5.0
-      tailwindcss: 3.0.16_ef48b3b8837f8a23677bffe8f9cd866d
+      tailwindcss: 3.0.18_ef48b3b8837f8a23677bffe8f9cd866d
     dev: false
 
   /@tanem/svg-injector/10.1.15:
@@ -1816,14 +1815,14 @@ packages:
       '@types/yargs-parser': 20.2.1
     dev: false
 
-  /@typescript-eslint/experimental-utils/5.10.0_eslint@8.7.0+typescript@4.5.5:
+  /@typescript-eslint/experimental-utils/5.10.0_eslint@8.8.0+typescript@4.5.5:
     resolution: {integrity: sha512-GeQAPqQMI5DVMGOUwGbSR+NdsirryyKOgUFRTWInhlsKUArns/MVnXmPpzxfrzB1nU36cT5WJAwmfCsjoaVBWg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
-      '@typescript-eslint/utils': 5.10.0_eslint@8.7.0+typescript@4.5.5
-      eslint: 8.7.0
+      '@typescript-eslint/utils': 5.10.0_eslint@8.8.0+typescript@4.5.5
+      eslint: 8.8.0
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -1863,7 +1862,7 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/utils/5.10.0_eslint@8.7.0+typescript@4.5.5:
+  /@typescript-eslint/utils/5.10.0_eslint@8.8.0+typescript@4.5.5:
     resolution: {integrity: sha512-IGYwlt1CVcFoE2ueW4/ioEwybR60RAdGeiJX/iDAw0t5w0wK3S7QncDwpmsM70nKgGTuVchEWB8lwZwHqPAWRg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1873,9 +1872,9 @@ packages:
       '@typescript-eslint/scope-manager': 5.10.0
       '@typescript-eslint/types': 5.10.0
       '@typescript-eslint/typescript-estree': 5.10.0_typescript@4.5.5
-      eslint: 8.7.0
+      eslint: 8.8.0
       eslint-scope: 5.1.1
-      eslint-utils: 3.0.0_eslint@8.7.0
+      eslint-utils: 3.0.0_eslint@8.8.0
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -3034,7 +3033,7 @@ packages:
 
   /chokidar/2.1.8:
     resolution: {integrity: sha512-ZmZUazfOzf0Nve7duiCKD23PFSCs4JPoYyccjUFF3aQkQadqBhfzhjkwBH2mNOG9cTBwhamM37EIsIkZw3nRgg==}
-    deprecated: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+    deprecated: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
     dependencies:
       anymatch: 2.0.0
       async-each: 1.0.3
@@ -4118,7 +4117,7 @@ packages:
     hasBin: true
     dev: true
 
-  /enzyme-adapter-preact-pure/3.3.0_enzyme@3.11.0+preact@10.6.4:
+  /enzyme-adapter-preact-pure/3.3.0_enzyme@3.11.0+preact@10.6.5:
     resolution: {integrity: sha512-+FNEZBEXwuDDsA8YOvC9p6gcvxQG5V6QnXKkUVJte/GKMWadOXDR+uw0w+QGwxreA8oMOlK/1+O8F7PzealpKA==}
     peerDependencies:
       enzyme: ^3.8.0
@@ -4126,7 +4125,7 @@ packages:
     dependencies:
       array.prototype.flatmap: 1.2.5
       enzyme: 3.11.0
-      preact: 10.6.4
+      preact: 10.6.5
     dev: true
 
   /enzyme-shallow-equal/1.0.4:
@@ -4267,21 +4266,21 @@ packages:
       source-map: 0.6.1
     dev: false
 
-  /eslint-config-preact/1.3.0_fba2f7198138739da2e4544725d6464d:
+  /eslint-config-preact/1.3.0_ee07baedc10f0b46d30cd9c14bf6940b:
     resolution: {integrity: sha512-yHYXg5qNzEJd3D/30AmsIW0W8MuY858KpApXp7xxBF08IYUljSKCOqMx+dVucXHQnAm7+11wOnMkgVHIBAechw==}
     peerDependencies:
       eslint: 6.x || 7.x || 8.x
     dependencies:
       '@babel/core': 7.16.10
-      '@babel/eslint-parser': 7.16.5_@babel+core@7.16.10+eslint@8.7.0
+      '@babel/eslint-parser': 7.16.5_@babel+core@7.16.10+eslint@8.8.0
       '@babel/plugin-syntax-class-properties': 7.12.13_@babel+core@7.16.10
       '@babel/plugin-syntax-decorators': 7.16.7_@babel+core@7.16.10
       '@babel/plugin-syntax-jsx': 7.16.7_@babel+core@7.16.10
-      eslint: 8.7.0
-      eslint-plugin-compat: 4.0.1_eslint@8.7.0
-      eslint-plugin-jest: 25.7.0_fba2f7198138739da2e4544725d6464d
-      eslint-plugin-react: 7.28.0_eslint@8.7.0
-      eslint-plugin-react-hooks: 4.3.0_eslint@8.7.0
+      eslint: 8.8.0
+      eslint-plugin-compat: 4.0.1_eslint@8.8.0
+      eslint-plugin-jest: 25.7.0_ee07baedc10f0b46d30cd9c14bf6940b
+      eslint-plugin-react: 7.28.0_eslint@8.8.0
+      eslint-plugin-react-hooks: 4.3.0_eslint@8.8.0
     transitivePeerDependencies:
       - '@typescript-eslint/eslint-plugin'
       - jest
@@ -4289,7 +4288,7 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-compat/4.0.1_eslint@8.7.0:
+  /eslint-plugin-compat/4.0.1_eslint@8.8.0:
     resolution: {integrity: sha512-vs4oa+WQcCRH7lD/0H8eh90tnSQurV3Cebt32x28JlP0Kn9UkQT+N8Pm939KavTO3/DiFPQyTPCNdYXcIWP/GA==}
     engines: {node: '>=9.x'}
     peerDependencies:
@@ -4300,13 +4299,13 @@ packages:
       browserslist: 4.19.1
       caniuse-lite: 1.0.30001300
       core-js: 3.20.3
-      eslint: 8.7.0
+      eslint: 8.8.0
       find-up: 5.0.0
       lodash.memoize: 4.1.2
       semver: 7.3.5
     dev: true
 
-  /eslint-plugin-jest/25.7.0_fba2f7198138739da2e4544725d6464d:
+  /eslint-plugin-jest/25.7.0_ee07baedc10f0b46d30cd9c14bf6940b:
     resolution: {integrity: sha512-PWLUEXeeF7C9QGKqvdSbzLOiLTx+bno7/HC9eefePfEb257QFHg7ye3dh80AZVkaa/RQsBB1Q/ORQvg2X7F0NQ==}
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
     peerDependencies:
@@ -4319,24 +4318,24 @@ packages:
       jest:
         optional: true
     dependencies:
-      '@typescript-eslint/experimental-utils': 5.10.0_eslint@8.7.0+typescript@4.5.5
-      eslint: 8.7.0
+      '@typescript-eslint/experimental-utils': 5.10.0_eslint@8.8.0+typescript@4.5.5
+      eslint: 8.8.0
       jest: 27.4.7
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /eslint-plugin-react-hooks/4.3.0_eslint@8.7.0:
+  /eslint-plugin-react-hooks/4.3.0_eslint@8.8.0:
     resolution: {integrity: sha512-XslZy0LnMn+84NEG9jSGR6eGqaZB3133L8xewQo3fQagbQuGt7a63gf+P1NGKZavEYEC3UXaWEAA/AqDkuN6xA==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
     dependencies:
-      eslint: 8.7.0
+      eslint: 8.8.0
     dev: true
 
-  /eslint-plugin-react/7.28.0_eslint@8.7.0:
+  /eslint-plugin-react/7.28.0_eslint@8.8.0:
     resolution: {integrity: sha512-IOlFIRHzWfEQQKcAD4iyYDndHwTQiCMcJVJjxempf203jnNLUnW34AXLrV33+nEXoifJE2ZEGmcjKPL8957eSw==}
     engines: {node: '>=4'}
     peerDependencies:
@@ -4345,7 +4344,7 @@ packages:
       array-includes: 3.1.4
       array.prototype.flatmap: 1.2.5
       doctrine: 2.1.0
-      eslint: 8.7.0
+      eslint: 8.8.0
       estraverse: 5.3.0
       jsx-ast-utils: 3.2.1
       minimatch: 3.0.4
@@ -4383,13 +4382,13 @@ packages:
       estraverse: 5.3.0
     dev: true
 
-  /eslint-utils/3.0.0_eslint@8.7.0:
+  /eslint-utils/3.0.0_eslint@8.8.0:
     resolution: {integrity: sha512-uuQC43IGctw68pJA1RgbQS8/NP7rch6Cwd4j3ZBtgo4/8Flj4eGE7ZYSZRN3iq5pVUv6GPdW5Z1RFleo84uLDA==}
     engines: {node: ^10.0.0 || ^12.0.0 || >= 14.0.0}
     peerDependencies:
       eslint: '>=5'
     dependencies:
-      eslint: 8.7.0
+      eslint: 8.8.0
       eslint-visitor-keys: 2.1.0
     dev: true
 
@@ -4403,8 +4402,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /eslint/8.7.0:
-    resolution: {integrity: sha512-ifHYzkBGrzS2iDU7KjhCAVMGCvF6M3Xfs8X8b37cgrUlDt6bWRTpRh6T/gtSXv1HJ/BUGgmjvNvOEGu85Iif7w==}
+  /eslint/8.8.0:
+    resolution: {integrity: sha512-H3KXAzQGBH1plhYS3okDix2ZthuYJlQQEGE5k0IKuEqUSiyu4AmxxlJ2MtTYeJ3xB4jDhcYCwGOg2TXYdnDXlQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -4417,7 +4416,7 @@ packages:
       doctrine: 3.0.0
       escape-string-regexp: 4.0.0
       eslint-scope: 7.1.0
-      eslint-utils: 3.0.0_eslint@8.7.0
+      eslint-utils: 3.0.0_eslint@8.8.0
       eslint-visitor-keys: 3.2.0
       espree: 9.3.0
       esquery: 1.4.0
@@ -6249,7 +6248,7 @@ packages:
       jest-resolve: 27.4.6
     dev: false
 
-  /jest-preset-preact/4.0.5_96f7084f07f67afb40aa46ed1904e7b4:
+  /jest-preset-preact/4.0.5_826ac62b70be532ffb7a9b7cb8f3d801:
     resolution: {integrity: sha512-MnU7mfpnwopJkdx0WoEyRmrNDIvRN+w6sOur0zEhaRYYMo0gJM7UdZHWTV8k6uo0+ypY+m0kQW6kMukUx4v8JQ==}
     peerDependencies:
       jest: 26.x || 27.x
@@ -6266,8 +6265,8 @@ packages:
       isomorphic-unfetch: 3.1.0
       jest: 27.4.7
       jest-watch-typeahead: 0.6.5_jest@27.4.7
-      preact: 10.6.4
-      preact-render-to-string: 5.1.19_preact@10.6.4
+      preact: 10.6.5
+      preact-render-to-string: 5.1.19_preact@10.6.5
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -6869,6 +6868,7 @@ packages:
 
   /lodash.uniq/4.5.0:
     resolution: {integrity: sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=}
+    dev: true
 
   /lodash/4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
@@ -6963,13 +6963,13 @@ packages:
       object-visit: 1.0.1
     dev: true
 
-  /markdown-to-jsx/7.1.6_preact@10.6.4:
+  /markdown-to-jsx/7.1.6_preact@10.6.5:
     resolution: {integrity: sha512-1wrIGZYwIG2gR3yfRmbr4FlQmhaAKoKTpRo4wur4fp9p0njU1Hi7vR8fj0AUKKIcPduiJmPprzmCB5B/GvlC7g==}
     engines: {node: '>= 10'}
     peerDependencies:
       react: '>= 0.14.0'
     dependencies:
-      react: /preact/10.6.4
+      react: /preact/10.6.5
     dev: false
 
   /md5.js/1.3.5:
@@ -8291,7 +8291,7 @@ packages:
     resolution: {integrity: sha512-GO9V1/LCCiIt1AhDxWeqGJm6NLCCQmLDkgWH+32SER89n6nKHXHSaCIs5HHSVqOrf9kX8CYqUofp5A8ChZSBqg==}
     dev: false
 
-  /preact-cli/3.3.3_26ed57f0a92fea1141353e0a8157fcb1:
+  /preact-cli/3.3.3_65454c9440383f7307559d6b8f1375e0:
     resolution: {integrity: sha512-KyWiGo1GG/mTSvQhoHWOBKLEj8dWoezK2WOm9qj723jGRk37olT/GDhlYVrbgHYGXk+Dd4X/GGtVV+IaNpOXFw==}
     engines: {node: '>=12'}
     hasBin: true
@@ -8318,9 +8318,9 @@ packages:
       '@babel/plugin-transform-react-jsx': 7.16.7_@babel+core@7.16.10
       '@babel/preset-env': 7.16.11_@babel+core@7.16.10
       '@babel/preset-typescript': 7.16.7_@babel+core@7.16.10
-      '@preact/async-loader': 3.0.1_preact@10.6.4
+      '@preact/async-loader': 3.0.1_preact@10.6.5
       '@prefresh/babel-plugin': 0.4.1
-      '@prefresh/webpack': 3.3.2_528f3d5160422d1e331d38625621f385
+      '@prefresh/webpack': 3.3.2_1d48a6e12cc5d59517980d224253a501
       '@types/webpack': 4.41.32
       autoprefixer: 10.4.2_postcss@8.4.5
       babel-esm-plugin: 0.9.0_webpack@4.46.0
@@ -8357,8 +8357,8 @@ packages:
       postcss: 8.4.5
       postcss-load-config: 3.1.1
       postcss-loader: 4.3.0_postcss@8.4.5+webpack@4.46.0
-      preact: 10.6.4
-      preact-render-to-string: 5.1.19_preact@10.6.4
+      preact: 10.6.5
+      preact-render-to-string: 5.1.19_preact@10.6.5
       progress-bar-webpack-plugin: 2.1.0_webpack@4.46.0
       promise-polyfill: 8.2.1
       prompts: 2.4.2
@@ -8401,25 +8401,25 @@ packages:
       - webpack-command
     dev: true
 
-  /preact-render-to-string/5.1.19_preact@10.6.4:
+  /preact-render-to-string/5.1.19_preact@10.6.5:
     resolution: {integrity: sha512-bj8sn/oytIKO6RtOGSS/1+5CrQyRSC99eLUnEVbqUa6MzJX5dYh7wu9bmT0d6lm/Vea21k9KhCQwvr2sYN3rrQ==}
     peerDependencies:
       preact: '>=10'
     dependencies:
-      preact: 10.6.4
+      preact: 10.6.5
       pretty-format: 3.8.0
     dev: false
 
-  /preact-router/4.0.1_preact@10.6.4:
+  /preact-router/4.0.1_preact@10.6.5:
     resolution: {integrity: sha512-xPyHVLouc5oKIlKu9iEElplNygJYkOn/vfXfZhcoOFqzfAZHZMmT3FsQb0yyPkdt1rwTLFAxek6/5CFkofocSQ==}
     peerDependencies:
       preact: '>=10'
     dependencies:
-      preact: 10.6.4
+      preact: 10.6.5
     dev: false
 
-  /preact/10.6.4:
-    resolution: {integrity: sha512-WyosM7pxGcndU8hY0OQlLd54tOU+qmG45QXj2dAYrL11HoyU/EzOSTlpJsirbBr1QW7lICxSsVJJmcmUglovHQ==}
+  /preact/10.6.5:
+    resolution: {integrity: sha512-i+LXM6JiVjQXSt2jG2vZZFapGpCuk1fl8o6ii3G84MA3xgj686FKjs4JFDkmUVhtxyq21+4ay74zqPykz9hU6w==}
     dev: false
 
   /prelude-ls/1.1.2:
@@ -8701,7 +8701,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-svg/14.1.9_preact@10.6.4+preact@10.6.4:
+  /react-svg/14.1.9_preact@10.6.5+preact@10.6.5:
     resolution: {integrity: sha512-bppSZlXzRKOx3urMBwtCbcKaXS9zjM2epx9rLCJ9q4ONbc13KMavy5tZxtR72XSirNA3By4josvEQSmd3bxWhg==}
     peerDependencies:
       react: ^15.5.4 || ^16.0.0 || ^17.0.0
@@ -8711,8 +8711,8 @@ packages:
       '@tanem/svg-injector': 10.1.15
       '@types/prop-types': 15.7.4
       prop-types: 15.8.1
-      react: /preact/10.6.4
-      react-dom: /preact/10.6.4
+      react: /preact/10.6.5
+      react-dom: /preact/10.6.5
     dev: false
 
   /readable-stream/2.3.7:
@@ -9791,8 +9791,8 @@ packages:
   /symbol-tree/3.2.4:
     resolution: {integrity: sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==}
 
-  /tailwindcss/3.0.16_ef48b3b8837f8a23677bffe8f9cd866d:
-    resolution: {integrity: sha512-1L8E5Wr+o1c4kxxObNz2owJe94a7BLEMV+2Lz6wzprJdcs3ENSRR9t4OZf2OqtRNS/q/zFPuOKoLtQoy3Lrhhw==}
+  /tailwindcss/3.0.18_ef48b3b8837f8a23677bffe8f9cd866d:
+    resolution: {integrity: sha512-ihPTpEyA5ANgZbwKlgrbfnzOp9R5vDHFWmqxB1PT8NwOGCOFVVMl+Ps1cQQ369acaqqf1BEF77roCwK0lvNmTw==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     peerDependencies:
