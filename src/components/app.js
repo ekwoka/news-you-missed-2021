@@ -7,6 +7,7 @@ import Header from './header';
 import Home from '../routes/home';
 import Map from '../routes/map';
 import Article from '../routes/article';
+import Articles from '../routes/articles';
 import Random from '../routes/random';
 
 const App = () => (
@@ -16,7 +17,8 @@ const App = () => (
       <Home path="/" />
       <Map path="/map" country="undefined" />
       <Map path="/map/:country" />
-      <Article path="/country/:country" />
+      <Article path="/article/:country" />
+      <Articles path="/articles" />
 	  <Random path="/random" />
     </Router>
   </div>

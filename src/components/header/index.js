@@ -3,7 +3,7 @@ import { Link } from 'preact-router/match';
 const NAVIGATION = [
   { name: 'Map', href: '/map' },
   { name: 'Random', href: '/random' },
-  { name: 'Table', href: '/table' },
+  { name: 'Table', href: '/articles' },
   { name: 'Favorites', href: '/favorites' },
   { name: 'Search', func: 'openSearch' }
 ];

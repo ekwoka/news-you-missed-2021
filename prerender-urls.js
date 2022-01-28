@@ -12,11 +12,16 @@ module.exports = () => {
 		{ url: '/map/' }
 	];
 
+	pages.push({
+		url: '/articles/',
+		data: articles
+	})
+
 	// adding all blog pages
 	pages.push(...articles.map(article => {
 		const data = fs.readFileSync(join('content', article.id), 'utf-8').replace(/---(.*\n)*---/, '');
 		return {
-			url: `/country/${article.id.replace('.md', '')}/`,
+			url: `/article/${article.id.replace('.md', '')}/`,
 			seo: article.details,
 			data: {
 				details: article.details,
