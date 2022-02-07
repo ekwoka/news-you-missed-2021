@@ -2,6 +2,7 @@
 layout: article
 title: Ethiopia
 ---
+
 The stores of two priminent headline-makers collided this year when Tedros Adhanom, director-general of the World Health Organization, spoke on the first situation in north Ethiopia.
 
 In November, the director-general said that the Tigray region of Ethiopia was under a "systematic blockade" and that people were dying because of the lack of supplies.

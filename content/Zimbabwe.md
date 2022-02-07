@@ -2,6 +2,7 @@
 layout: article
 title: Zimbabwe
 ---
+
 In the opposite of underground, Zimbabwe plans to launch its first satellite, the ZIMSAT-1, in February.
 
 It will be used to help organizations and officials collect data that relates to ground cover and drought, as well as transmit signals for amateur radio stations.

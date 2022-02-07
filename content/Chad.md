@@ -2,6 +2,7 @@
 layout: article
 title: Chad
 ---
+
 2021 saw both the suspension and reinstatement of the Chadian Football Association by the hands of FIFA.
 
 Citing government interference in Chad's effort to seize the Association's authority and training grounds, an unsurprising overstep under the ruling military council, soccer's ruling body banned the country from international tournaments.

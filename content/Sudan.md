@@ -2,6 +2,7 @@
 layout: article
 title: Sudan
 ---
+
 Sudan’s progress toward democratic rule hit a major speed bump this October when the military seized power.
 
 Since the ousting of Omar al-Bashir in 2019, Sudan had been trending in the democratic direction––that was, until this most recent coup.

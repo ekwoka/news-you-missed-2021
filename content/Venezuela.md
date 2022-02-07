@@ -2,6 +2,7 @@
 layout: article
 title: Venezuela
 ---
+
 Venezuelans have been fleeing their country in one of the world’s largest human migrations, and one-third of them head to neighboring Colombia.
 
 Recently, Colombia announced its decision to provide temporary legal status to more than 1.7 million migrants who had fled there in recent years.

@@ -2,6 +2,7 @@
 layout: article
 title: Uganda
 ---
+
 Expressing dissent with Uganda’s 900 mile, 1,500 kilometer oil pipeline project is becoming costly.
 
 Citing lack of compensation for land and a host of environmental dangers, local activists and international NGOs are raising concerns over the project that begins in Murchison National Park and borders Lake Victoria.

@@ -2,6 +2,7 @@
 layout: article
 title: Jordan
 ---
+
 Also threatening was two mens’ plot to unseat Jordan’s King Abdullah, a crime for which they were sentenced to 15 years in prison.
 
 They were aides to the king’s half-brother, who was removed from the line of succession in 2004.

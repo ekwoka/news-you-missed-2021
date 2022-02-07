@@ -2,6 +2,7 @@
 layout: article
 title: Cambodia
 ---
+
 Sometimes governmental overreach isn’t unpleasant, as is the case with a defanged and declawed lion named Hima.
 
 He was reunited with his owner after the Cambodian prime minister got involved.

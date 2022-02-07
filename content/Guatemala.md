@@ -2,6 +2,7 @@
 layout: article
 title: Guatemala
 ---
+
 When one thinks of palm oil plantations, Malaysia and Indonesia usually come to mind.
 
 But Guatemala’s emerging market makes it the world’s sixth-largest producer of palm oil, however that success, of course, comes at a cost.

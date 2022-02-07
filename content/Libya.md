@@ -2,6 +2,7 @@
 layout: article
 title: Libya
 ---
+
 In Libya, there’s some frightening news on the artificial intelligence front.
 
 A report commissioned by the United Nations found that a military drone strike used in the country’s civil war may have been carried out autonomously.

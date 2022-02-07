@@ -2,6 +2,7 @@
 layout: article
 title: Madagascar
 ---
+
 Chameleons, by their very nature, are hard to spot.
 
 A chameleon measuring just 29 millimeters from tip to tail, nearly impossible.

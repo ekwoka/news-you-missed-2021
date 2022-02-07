@@ -2,6 +2,7 @@
 layout: article
 title: Eritrea
 ---
+
 Over 300 Eritreans born during Italy's rule have demanded Italian citizenship.
 
 In the seven-off decades since colonial rule, Eritrean claims to Italian citizenship based on paternal bloodlines have fallen on deaf ears.

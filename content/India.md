@@ -2,6 +2,7 @@
 layout: article
 title: India
 ---
+
 If two’s a party and three’s a crowd, then India is taking note.
 
 Some states, including the country’s most populous, Uttar Pradesh, which has 240 million people and would be the world’s fifth most populous country by itself, introduced a China-like two-child policy and sterilization measures to control population growth.

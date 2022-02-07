@@ -2,6 +2,7 @@
 layout: article
 title: Paraguay
 ---
+
 Something else that’s stopping is the Parana River.
 
 South America’s second-largest river straddles Paraguay, Argentina, and Brazil, and sadly, it’s the lowest it’s been in more than 70 years.

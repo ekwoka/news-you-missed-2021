@@ -2,6 +2,7 @@
 layout: article
 title: Djibouti
 ---
+
 The violence that’s gripped Ethiopia for the past year has done no favors for East African neighbors either––see the tiny coastal nation of Djibouti.
 
 In July, protestors responding to a state-led attack blocked the rail line that connects the landlocked Ethiopia to the ocean.

@@ -2,6 +2,7 @@
 layout: article
 title: Vanuatu
 ---
+
 Vanuatu is a remote Pacific island with just 300,000 residents.
 
 So why did some 2,000 politicians, business owners, and criminals get citizenship there recently? Because for $130,000, they can.

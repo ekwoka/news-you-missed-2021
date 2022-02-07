@@ -2,6 +2,7 @@
 layout: article
 title: Haiti
 ---
+
 Democracy is in trouble in Haiti.
 
 After a deadly earthquake, a presidential assasination, and bout after bout of gang violence, chaos and uncertainty are primed to carry into 2022 as general elections have been postponed for the fourth time.

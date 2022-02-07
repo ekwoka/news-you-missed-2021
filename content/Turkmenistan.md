@@ -2,6 +2,7 @@
 layout: article
 title: Turkmenistan
 ---
+
 Last year the president of Turkmenistan erected a gilded statue of a beloved breed of dog, the Alabai.
 
 This year, he took it a step further and announced a national holiday honoring the large, shepherd-like canine.

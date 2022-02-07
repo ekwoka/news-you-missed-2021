@@ -2,6 +2,7 @@
 layout: article
 title: Iraq
 ---
+
 In the ongoing fight against ISIS, officials in Iraq declared a moderate victory with the capture of the Islamic State’s finance minister, Sami Jassem al-Ajuz.
 
 The kicker? He’s alive.

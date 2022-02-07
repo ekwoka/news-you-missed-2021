@@ -2,6 +2,7 @@
 layout: article
 title: Sierra Leone
 ---
+
 As the world warms, cities are getting hot, sometimes deadly hot.
 
 This is the case in Freetown, the capital city of Sierra Leone.

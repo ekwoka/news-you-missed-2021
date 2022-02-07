@@ -2,6 +2,7 @@
 layout: article
 title: Camaroon
 ---
+
 Charges were laid against two transgender women who were simply having dinner in Cameroon when they were arrested for alleged homosexuality.
 
 Later, they were sentenced to five years in jail, which some say is a death sentence in the male-dominated prison system.

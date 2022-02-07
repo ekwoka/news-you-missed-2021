@@ -2,6 +2,7 @@
 layout: article
 title: Yemen
 ---
+
 Elegant, meticulously groomed and arranged trees and bushes aren't likely what one would expect along the war-town steets of Yemen.
 
 But that's what you'll run into when passing through the city of Marib, where trees sculpted into shapes, figures, and animals line roadways.

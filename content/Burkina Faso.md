@@ -2,6 +2,7 @@
 layout: article
 title: Burkina Faso
 ---
+
 Inspiration takes many forms.
 
 For Burkina Faso nationals, it took the form of the massive, smiling "Iron Biby," who set a new world record in log lifting.

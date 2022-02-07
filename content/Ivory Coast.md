@@ -2,6 +2,7 @@
 layout: article
 title: The Ivory Coast
 ---
+
 In the Ivory Coast, stamping out illegal cocoa grow operations has proved next to impossible.
 
 But that could change with the adoption of the most recent European Commission plan to curb global deforestation.

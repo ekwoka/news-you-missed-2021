@@ -2,6 +2,7 @@
 layout: article
 title: Burundi
 ---
+
 In July, the heads of state from Burundi and the Democratic Republic of the Congo signed cooperative agreements aimed to foster trade, stamp out rebels, and literally bridge the Ruzizi River-sized gap between the neighboring countries.
 
 Expanding rail lines and electrification along the borderlands are also key components of the agreements.

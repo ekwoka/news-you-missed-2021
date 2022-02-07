@@ -2,6 +2,7 @@
 layout: article
 title: Mozambique
 ---
+
 Researchers have found that elephants have behung ditching their tusks in the name of survival.
 
 Once rare, tuskless Africa elephants have become increasingly common of the last 50 years, largely on account of poachers.

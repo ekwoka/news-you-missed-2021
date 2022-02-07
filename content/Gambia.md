@@ -2,6 +2,7 @@
 layout: article
 title: The Gambia
 ---
+
 As part of their seemingly odd and certainly confusing court case agaisnt Myanmar, The Gambia won an important ruling this year.
 
 On behalf of the Rohingya, a Muslim ethnic group persecuted in Myanmar, the tiny Gambia, with the backing of the Orgnization of Islamic Cooperation, a group of 57 nation-states, filed a lawsuit against Myanmar in 2019.

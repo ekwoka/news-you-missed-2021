@@ -2,6 +2,7 @@
 layout: article
 title: Liberia
 ---
+
 Fifty thousand dollars goes a long way.
 
 In Liberia, $50,000 and doing the right thing with it will earn you a change to meet the president.

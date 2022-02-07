@@ -2,6 +2,7 @@
 layout: article
 title: Niger
 ---
+
 In what has been a tough year for a myriad of reasons, Niger made history with its first-ever peaceful, democratic transition of power.
 
 Once President Mahamadou Issoufou relinquished the position after two terms, the limit outlined in the country's contitution.

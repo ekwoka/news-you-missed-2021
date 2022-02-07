@@ -2,6 +2,7 @@
 layout: article
 title: Nepal
 ---
+
 Nepal counts how many people reach the top of Mount Everest.
 
 Now, they’re unhappy with three Indian climbers who allegedly falsified their summit of the world’s highest peak in 2016.
