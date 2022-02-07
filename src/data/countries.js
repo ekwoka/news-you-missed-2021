@@ -1,530 +1,530 @@
 export const Nations = {
   AE: {
-    name: 'United Arab Emirates'
+    name: 'United Arab Emirates',
   },
   AF: {
-    name: 'Afghanistan'
+    name: 'Afghanistan',
   },
   AL: {
-    name: 'Albania'
+    name: 'Albania',
   },
   AM: {
-    name: 'Armenia'
+    name: 'Armenia',
   },
   AO: {
-    name: 'Angola'
+    name: 'Angola',
   },
   AR: {
-    name: 'Argentina'
+    name: 'Argentina',
   },
   AT: {
-    name: 'Austria'
+    name: 'Austria',
   },
   AU: {
-    name: 'Australia'
+    name: 'Australia',
   },
   AZ: {
-    name: 'Azerbaidjan'
+    name: 'Azerbaidjan',
   },
   BA: {
-    name: 'Bosnia-Herzegovina'
+    name: 'Bosnia-Herzegovina',
   },
   BD: {
-    name: 'Bangladesh'
+    name: 'Bangladesh',
   },
   BE: {
-    name: 'Belgium'
+    name: 'Belgium',
   },
   BF: {
-    name: 'Burkina Faso'
+    name: 'Burkina Faso',
   },
   BG: {
-    name: 'Bulgaria'
+    name: 'Bulgaria',
   },
   BH: {
-    name: 'Bahrain'
+    name: 'Bahrain',
   },
   BI: {
-    name: 'Burundi'
+    name: 'Burundi',
   },
   BJ: {
-    name: 'Benin'
+    name: 'Benin',
   },
   BN: {
-    name: 'Brunei Darussalam'
+    name: 'Brunei Darussalam',
   },
   BO: {
-    name: 'Bolivia'
+    name: 'Bolivia',
   },
   BR: {
-    name: 'Brazil'
+    name: 'Brazil',
   },
   BS: {
-    name: 'Bahamas'
+    name: 'Bahamas',
   },
   BT: {
-    name: 'Bhutan'
+    name: 'Bhutan',
   },
   BW: {
-    name: 'Botswana'
+    name: 'Botswana',
   },
   BY: {
-    name: 'Belarus'
+    name: 'Belarus',
   },
   BZ: {
-    name: 'Belize'
+    name: 'Belize',
   },
   CA: {
-    name: 'Canada'
+    name: 'Canada',
   },
   CD: {
-    name: 'Congo'
+    name: 'Congo',
   },
   CF: {
-    name: 'Central African Republic'
+    name: 'Central African Republic',
   },
   CG: {
-    name: 'Congo'
+    name: 'Congo',
   },
   CH: {
-    name: 'Switzerland'
+    name: 'Switzerland',
   },
   CI: {
-    name: 'Ivory Coast'
+    name: 'Ivory Coast',
   },
   CL: {
-    name: 'Chile'
+    name: 'Chile',
   },
   CM: {
-    name: 'Cameroon'
+    name: 'Cameroon',
   },
   CN: {
-    name: 'China'
+    name: 'China',
   },
   CO: {
-    name: 'Colombia'
+    name: 'Colombia',
   },
   CR: {
-    name: 'Costa Rica'
+    name: 'Costa Rica',
   },
   CU: {
-    name: 'Cuba'
+    name: 'Cuba',
   },
   CV: {
-    name: 'Cape Verde'
+    name: 'Cape Verde',
   },
   CY: {
-    name: 'Cyprus'
+    name: 'Cyprus',
   },
   CZ: {
-    name: 'Czech Republic'
+    name: 'Czech Republic',
   },
   DE: {
-    name: 'Germany'
+    name: 'Germany',
   },
   DJ: {
-    name: 'Djibouti'
+    name: 'Djibouti',
   },
   DK: {
-    name: 'Denmark'
+    name: 'Denmark',
   },
   DO: {
-    name: 'Dominican Republic'
+    name: 'Dominican Republic',
   },
   DZ: {
-    name: 'Algeria'
+    name: 'Algeria',
   },
   EC: {
-    name: 'Ecuador'
+    name: 'Ecuador',
   },
   EE: {
-    name: 'Estonia'
+    name: 'Estonia',
   },
   EG: {
-    name: 'Egypt'
+    name: 'Egypt',
   },
   EH: {
-    name: 'Western Sahara'
+    name: 'Western Sahara',
   },
   ER: {
-    name: 'Eritrea'
+    name: 'Eritrea',
   },
   ES: {
-    name: 'Spain'
+    name: 'Spain',
   },
   ET: {
-    name: 'Ethiopia'
+    name: 'Ethiopia',
   },
   FI: {
-    name: 'Finland'
+    name: 'Finland',
   },
   FJ: {
-    name: 'Fiji'
+    name: 'Fiji',
   },
   FK: {
-    name: 'Falkland Islands'
+    name: 'Falkland Islands',
   },
   FR: {
-    name: 'France'
+    name: 'France',
   },
   GA: {
-    name: 'Gabon'
+    name: 'Gabon',
   },
   GB: {
-    name: 'Great Britain'
+    name: 'Great Britain',
   },
   GE: {
-    name: 'Georgia'
+    name: 'Georgia',
   },
   GF: {
-    name: 'French Guyana'
+    name: 'French Guyana',
   },
   GH: {
-    name: 'Ghana'
+    name: 'Ghana',
   },
   GL: {
-    name: 'Greenland'
+    name: 'Greenland',
   },
   GM: {
-    name: 'Gambia'
+    name: 'Gambia',
   },
   GN: {
-    name: 'Guinea'
+    name: 'Guinea',
   },
   GQ: {
-    name: 'Equatorial Guinea'
+    name: 'Equatorial Guinea',
   },
   GR: {
-    name: 'Greece'
+    name: 'Greece',
   },
   GS: {
-    name: 'S. Georgia & S. Sandwich Isls.'
+    name: 'S. Georgia & S. Sandwich Isls.',
   },
   GT: {
-    name: 'Guatemala'
+    name: 'Guatemala',
   },
   GW: {
-    name: 'Guinea Bissau'
+    name: 'Guinea Bissau',
   },
   GY: {
-    name: 'Guyana'
+    name: 'Guyana',
   },
   HN: {
-    name: 'Honduras'
+    name: 'Honduras',
   },
   HR: {
-    name: 'Croatia'
+    name: 'Croatia',
   },
   HT: {
-    name: 'Haiti'
+    name: 'Haiti',
   },
   HU: {
-    name: 'Hungary'
+    name: 'Hungary',
   },
   IC: {
-    name: 'Canary Islands'
+    name: 'Canary Islands',
   },
   ID: {
-    name: 'Indonesia'
+    name: 'Indonesia',
   },
   IE: {
-    name: 'Ireland'
+    name: 'Ireland',
   },
   IL: {
-    name: 'Israel'
+    name: 'Israel',
   },
   IN: {
-    name: 'India'
+    name: 'India',
   },
   IQ: {
-    name: 'Iraq'
+    name: 'Iraq',
   },
   IR: {
-    name: 'Iran'
+    name: 'Iran',
   },
   IS: {
-    name: 'Iceland'
+    name: 'Iceland',
   },
   IT: {
-    name: 'Italy'
+    name: 'Italy',
   },
   JM: {
-    name: 'Jamaica'
+    name: 'Jamaica',
   },
   JO: {
-    name: 'Jordan'
+    name: 'Jordan',
   },
   JP: {
-    name: 'Japan'
+    name: 'Japan',
   },
   KE: {
-    name: 'Kenya'
+    name: 'Kenya',
   },
   KG: {
-    name: 'Kyrgyzstan'
+    name: 'Kyrgyzstan',
   },
   KH: {
-    name: 'Cambodia'
+    name: 'Cambodia',
   },
   KP: {
-    name: 'North Korea'
+    name: 'North Korea',
   },
   KR: {
-    name: 'South Korea'
+    name: 'South Korea',
   },
   KW: {
-    name: 'Kuwait'
+    name: 'Kuwait',
   },
   KZ: {
-    name: 'Kazakhstan'
+    name: 'Kazakhstan',
   },
   LA: {
-    name: 'Laos'
+    name: 'Laos',
   },
   LK: {
-    name: 'Sri Lanka'
+    name: 'Sri Lanka',
   },
   LR: {
-    name: 'Liberia'
+    name: 'Liberia',
   },
   LS: {
-    name: 'Lesotho'
+    name: 'Lesotho',
   },
   LT: {
-    name: 'Lithuania'
+    name: 'Lithuania',
   },
   LU: {
-    name: 'Luxembourg'
+    name: 'Luxembourg',
   },
   LV: {
-    name: 'Latvia'
+    name: 'Latvia',
   },
   LY: {
-    name: 'Libya'
+    name: 'Libya',
   },
   MA: {
-    name: 'Morocco'
+    name: 'Morocco',
   },
   MD: {
-    name: 'Moldavia'
+    name: 'Moldavia',
   },
   ME: {
-    name: 'Montenegro'
+    name: 'Montenegro',
   },
   MG: {
-    name: 'Madagascar'
+    name: 'Madagascar',
   },
   MK: {
-    name: 'Macedonia'
+    name: 'Macedonia',
   },
   ML: {
-    name: 'Mali'
+    name: 'Mali',
   },
   MM: {
-    name: 'Myanmar'
+    name: 'Myanmar',
   },
   MN: {
-    name: 'Mongolia'
+    name: 'Mongolia',
   },
   MR: {
-    name: 'Mauritania'
+    name: 'Mauritania',
   },
   MW: {
-    name: 'Malawi'
+    name: 'Malawi',
   },
   MX: {
-    name: 'Mexico'
+    name: 'Mexico',
   },
   MY: {
-    name: 'Malaysia'
+    name: 'Malaysia',
   },
   MZ: {
-    name: 'Mozambique'
+    name: 'Mozambique',
   },
   NA: {
-    name: 'Namibia'
+    name: 'Namibia',
   },
   NC: {
-    name: 'New Caledonia (French)'
+    name: 'New Caledonia (French)',
   },
   NE: {
-    name: 'Niger'
+    name: 'Niger',
   },
   NG: {
-    name: 'Nigeria'
+    name: 'Nigeria',
   },
   NI: {
-    name: 'Nicaragua'
+    name: 'Nicaragua',
   },
   NL: {
-    name: 'Netherlands'
+    name: 'Netherlands',
   },
   NO: {
-    name: 'Norway'
+    name: 'Norway',
   },
   NP: {
-    name: 'Nepal'
+    name: 'Nepal',
   },
   NZ: {
-    name: 'New Zealand'
+    name: 'New Zealand',
   },
   OM: {
-    name: 'Oman'
+    name: 'Oman',
   },
   PA: {
-    name: 'Panama'
+    name: 'Panama',
   },
   PE: {
-    name: 'Peru'
+    name: 'Peru',
   },
   PG: {
-    name: 'Papua New Guinea'
+    name: 'Papua New Guinea',
   },
   PH: {
-    name: 'Philippines'
+    name: 'Philippines',
   },
   PK: {
-    name: 'Pakistan'
+    name: 'Pakistan',
   },
   PL: {
-    name: 'Poland'
+    name: 'Poland',
   },
   PR: {
-    name: 'Puerto Rico'
+    name: 'Puerto Rico',
   },
   PS: {
-    name: 'Palestine'
+    name: 'Palestine',
   },
   PT: {
-    name: 'Portugal'
+    name: 'Portugal',
   },
   PY: {
-    name: 'Paraguay'
+    name: 'Paraguay',
   },
   QA: {
-    name: 'Qatar'
+    name: 'Qatar',
   },
   RO: {
-    name: 'Romania'
+    name: 'Romania',
   },
   RS: {
-    name: 'Serbia'
+    name: 'Serbia',
   },
   RU: {
-    name: 'Russia'
+    name: 'Russia',
   },
   RW: {
-    name: 'Rwanda'
+    name: 'Rwanda',
   },
   SA: {
-    name: 'Saudi Arabia'
+    name: 'Saudi Arabia',
   },
   SB: {
-    name: 'Solomon Islands'
+    name: 'Solomon Islands',
   },
   SD: {
-    name: 'Sudan'
+    name: 'Sudan',
   },
   SE: {
-    name: 'Sweden'
+    name: 'Sweden',
   },
   SI: {
-    name: 'Slovenia'
+    name: 'Slovenia',
   },
   SK: {
-    name: 'Slovak Republic'
+    name: 'Slovak Republic',
   },
   SL: {
-    name: 'Sierra Leone'
+    name: 'Sierra Leone',
   },
   SN: {
-    name: 'Senegal'
+    name: 'Senegal',
   },
   SO: {
-    name: 'Somalia'
+    name: 'Somalia',
   },
   SR: {
-    name: 'Suriname'
+    name: 'Suriname',
   },
   SS: {
-    name: 'South Sudan'
+    name: 'South Sudan',
   },
   SV: {
-    name: 'El Salvador'
+    name: 'El Salvador',
   },
   SY: {
-    name: 'Syria'
+    name: 'Syria',
   },
   SZ: {
-    name: 'Swaziland'
+    name: 'Swaziland',
   },
   TD: {
-    name: 'Chad'
+    name: 'Chad',
   },
   TG: {
-    name: 'Togo'
+    name: 'Togo',
   },
   TH: {
-    name: 'Thailand'
+    name: 'Thailand',
   },
   TJ: {
-    name: 'Tadjikistan'
+    name: 'Tadjikistan',
   },
   TL: {
-    name: 'East Timor'
+    name: 'East Timor',
   },
   TM: {
-    name: 'Turkmenistan'
+    name: 'Turkmenistan',
   },
   TN: {
-    name: 'Tunisia'
+    name: 'Tunisia',
   },
   TR: {
-    name: 'Turkey'
+    name: 'Turkey',
   },
   TT: {
-    name: 'Trinidad and Tobago'
+    name: 'Trinidad and Tobago',
   },
   TW: {
-    name: 'Taiwan'
+    name: 'Taiwan',
   },
   TZ: {
-    name: 'Tanzania'
+    name: 'Tanzania',
   },
   UA: {
-    name: 'Ukraine'
+    name: 'Ukraine',
   },
   UG: {
-    name: 'Uganda'
+    name: 'Uganda',
   },
   US: {
-    name: 'United States'
+    name: 'United States',
   },
   UY: {
-    name: 'Uruguay'
+    name: 'Uruguay',
   },
   UZ: {
-    name: 'Uzbekistan'
+    name: 'Uzbekistan',
   },
   VE: {
-    name: 'Venezuela'
+    name: 'Venezuela',
   },
   VN: {
-    name: 'Vietnam'
+    name: 'Vietnam',
   },
   VU: {
-    name: 'Vanuatu'
+    name: 'Vanuatu',
   },
   YE: {
-    name: 'Yemen'
+    name: 'Yemen',
   },
   ZA: {
-    name: 'South Africa'
+    name: 'South Africa',
   },
   ZM: {
-    name: 'Zambia'
+    name: 'Zambia',
   },
   ZW: {
-    name: 'Zimbabwe'
-  }
+    name: 'Zimbabwe',
+  },
 };

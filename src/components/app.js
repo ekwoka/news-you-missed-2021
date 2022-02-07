@@ -19,7 +19,7 @@ const App = () => (
       <Map path="/map/:country" />
       <Article path="/article/:country" />
       <Articles path="/articles" />
-	  <Random path="/random" />
+      <Random path="/random" />
     </Router>
   </div>
 );

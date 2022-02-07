@@ -42,14 +42,16 @@ export default function Map({ country }) {
     x = x + width / 2;
     let newTarget = {
       y: offset[1] / 2 / offsetFactor - y / offsetFactor,
-      x: offset[0] / 2 / offsetFactor - x / offsetFactor
+      x: offset[0] / 2 / offsetFactor - x / offsetFactor,
     };
     setTarget(newTarget);
     setScale(0.5 / Math.max(width / offset[0], height / offset[1]));
   }
 
   return (
-    <section role="complementary" className="relative flex flex-col items-center w-full px-8 pb-4 mx-auto overflow-hidden bg-gray-50">
+    <section
+      role="complementary"
+      className="relative flex flex-col items-center w-full px-8 pb-4 mx-auto overflow-hidden bg-gray-50">
       <style>
         {`.map-svg path[title='${active}'] {
           fill: #${Math.floor(Math.random() * 16777215).toString(16)};
@@ -62,9 +64,16 @@ export default function Map({ country }) {
             transform: scale(${scale}) translate(0px, 0px);
         }`}
       </style>
-      <ReactSVG src="/assets/worldHigh.svg" onClick={selectCountry} afterInjection={init} className="w-full max-w-screen-md duration-[2s] map-svg trasnition-transform" />
+      <ReactSVG
+        src="/assets/worldHigh.svg"
+        onClick={selectCountry}
+        afterInjection={init}
+        className="w-full max-w-screen-md duration-[2s] map-svg trasnition-transform"
+      />
 
-      <div class="absolute bottom-1 z-10 rounded shadow bg-gray-100 py-2 px-4 min-w-max max-w-sm mx-auto">{active || 'Select a country on the map'}</div>
+      <div class="absolute bottom-1 z-10 rounded shadow bg-gray-100 py-2 px-4 min-w-max max-w-sm mx-auto">
+        {active || 'Select a country on the map'}
+      </div>
     </section>
   );
 }

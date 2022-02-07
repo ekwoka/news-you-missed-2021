@@ -2,32 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer components {
-      .map-svg svg {
-        margin: 1em 0;
-        transition: 2s;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        height: auto;
-        max-width: 100vw;
-      }
-      .map-svg svg .land {
-        transition: 300ms;
-        fill-opacity: 1;
-        stroke: #0d002c;
-        stroke-opacity: 1;
-        stroke-width: 0.5;
-      }
-      .map-svg svg .land:hover {
-        cursor: pointer;
-      }
-      .map-svg svg .colorFill {
-        fill: #961c05;
-      }
-      .map-svg svg .colorFill:hover {
-        cursor: pointer;
-        fill: #961c05;
-      }
+  .map-svg svg {
+    margin: 1em 0;
+    transition: 2s;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    max-width: 100vw;
+  }
+  .map-svg svg .land {
+    transition: 300ms;
+    fill-opacity: 1;
+    stroke: #0d002c;
+    stroke-opacity: 1;
+    stroke-width: 0.5;
+  }
+  .map-svg svg .land:hover {
+    cursor: pointer;
+  }
+  .map-svg svg .colorFill {
+    fill: #961c05;
+  }
+  .map-svg svg .colorFill:hover {
+    cursor: pointer;
+    fill: #961c05;
+  }
 }

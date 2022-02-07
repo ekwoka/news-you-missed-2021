@@ -8,14 +8,16 @@ export default function Article(props) {
       <div className="flex items-center justify-center w-full h-full">
         Loading...
       </div>
-    )
+    );
   }
   if (data?.data) {
     const content = data.data.content;
     return (
-      <Markdown className="prose" options={{ wrapper: 'article', forceWrapper: true }}>
+      <Markdown
+        className="prose"
+        options={{ wrapper: 'article', forceWrapper: true }}>
         {content}
       </Markdown>
-    )
+    );
   }
 }

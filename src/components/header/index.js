@@ -5,7 +5,7 @@ const NAVIGATION = [
   { name: 'Random', href: '/random' },
   { name: 'Table', href: '/articles' },
   { name: 'Favorites', href: '/favorites' },
-  { name: 'Search', func: 'openSearch' }
+  { name: 'Search', func: 'openSearch' },
 ];
 
 export default function Header() {
@@ -16,11 +16,16 @@ export default function Header() {
           <div className="flex items-center">
             <Link href="/">
               <span className="sr-only">News You Missed 2021</span>
-              <h1 className="text-xl font-semibold tracking-wide text-emerald-50">News You Missed 2021</h1>
+              <h1 className="text-xl font-semibold tracking-wide text-emerald-50">
+                News You Missed 2021
+              </h1>
             </Link>
             <main-nav className="hidden ml-10 space-x-8 lg:block">
               {NAVIGATION.map((link) => (
-                <Link key={link.name} href={link.href} className="text-base font-medium text-emerald-50 hover:text-white">
+                <Link
+                  key={link.name}
+                  href={link.href}
+                  className="text-base font-medium text-emerald-50 hover:text-white">
                   {link.name}
                 </Link>
               ))}
@@ -29,7 +34,10 @@ export default function Header() {
         </top-nav>
         <nav-bar className="flex flex-wrap justify-center py-4 space-x-6 lg:hidden">
           {NAVIGATION.map((link) => (
-            <Link key={link.name} href={link.href} className="text-base font-medium text-emerald-50 hover:text-white">
+            <Link
+              key={link.name}
+              href={link.href}
+              className="text-base font-medium text-emerald-50 hover:text-white">
               {link.name}
             </Link>
           ))}
