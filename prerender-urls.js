@@ -3,6 +3,7 @@ const { join } = require('path');
 const fs = require('fs');
 
 const articles = generateFileList(join(__dirname, 'content')).edges;
+
 module.exports = () => {
   const pages = [
     {
