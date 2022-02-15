@@ -11,8 +11,8 @@ const NAVIGATION = [
 export default function Header() {
   return (
     <header className="bg-emerald-700">
-      <nav className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8" aria-label="Top">
-        <top-nav className="flex items-center justify-between w-full py-6 border-b border-emerald-500 lg:border-none">
+      <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Top">
+        <top-nav className="flex w-full items-center justify-between border-b border-emerald-500 py-6 lg:border-none">
           <div className="flex items-center">
             <Link href="/">
               <span className="sr-only">News You Missed 2021</span>
@@ -20,7 +20,7 @@ export default function Header() {
                 News You Missed 2021
               </h1>
             </Link>
-            <main-nav className="hidden ml-10 space-x-8 lg:block">
+            <main-nav className="ml-10 hidden space-x-8 lg:block">
               {NAVIGATION.map((link) => (
                 <Link
                   key={link.name}
@@ -32,7 +32,7 @@ export default function Header() {
             </main-nav>
           </div>
         </top-nav>
-        <nav-bar className="flex flex-wrap justify-center py-4 space-x-6 lg:hidden">
+        <nav-bar className="flex flex-wrap justify-center space-x-6 py-4 lg:hidden">
           {NAVIGATION.map((link) => (
             <Link
               key={link.name}

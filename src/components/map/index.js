@@ -51,7 +51,7 @@ export default function Map({ country }) {
   return (
     <section
       role="complementary"
-      className="relative flex flex-col items-center w-full px-8 pb-4 mx-auto overflow-hidden bg-gray-50">
+      className="relative mx-auto flex w-full flex-col items-center overflow-hidden bg-gray-50 px-8 pb-4">
       <style>
         {`.map-svg path[title='${active}'] {
           fill: #${Math.floor(Math.random() * 16777215).toString(16)};
@@ -68,10 +68,10 @@ export default function Map({ country }) {
         src="/assets/worldHigh.svg"
         onClick={selectCountry}
         afterInjection={init}
-        className="w-full max-w-screen-md duration-[2s] map-svg trasnition-transform"
+        className="map-svg trasnition-transform w-full max-w-screen-md duration-[2s]"
       />
 
-      <div class="absolute bottom-1 z-10 rounded shadow bg-gray-100 py-2 px-4 min-w-max max-w-sm mx-auto">
+      <div class="absolute bottom-1 z-10 mx-auto min-w-max max-w-sm rounded bg-gray-100 py-2 px-4 shadow">
         {active || 'Select a country on the map'}
       </div>
     </section>

@@ -6,7 +6,8 @@
     "build": "preact build --prerenderUrls ./prerender-urls.js",
     "serve": "sirv build --port 8080 --cors --single",
     "dev": "preact watch --prerenderUrls ./prerender-urls.js",
-    "lint": "eslint src",
+    "lint": "eslint src && prettier --check src",
+    "lint-fix": "eslint --fix src && prettier --write src",
     "test": "jest",
     "upgrade": "ncu -u && pnpm i && pnpm build && git add . && git commit -m ':arrow_up: Dependencies' && pnpm version patch"
   },
@@ -26,7 +27,6 @@
     "postcss": "^8.4.6",
     "preact-cli": "3.3.5",
     "prettier": "^2.5.1",
-    "prettier-plugin-tailwind": "^2.2.12",
     "sirv-cli": "2.0.2"
   },
   "dependencies": {
@@ -40,6 +40,7 @@
     "preact-cli-plugin-netlify": "1.6.0",
     "preact-render-to-string": "^5.1.19",
     "preact-router": "^4.0.1",
+    "prettier-plugin-tailwindcss": "^0.1.7",
     "react": "npm:preact@^10.6.6",
     "react-dom": "npm:preact@^10.6.6",
     "react-svg": "^14.1.11",
@@ -63,7 +64,11 @@
   },
   "prettier": {
     "singleQuote": true,
-    "bracketSameLine": true
+    "bracketSameLine": true,
+    "tailwindConfig": "tailwind.config.js",
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ]
   },
   "author": "Eric Kwoka",
   "license": "ISC"

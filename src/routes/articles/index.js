@@ -5,7 +5,7 @@ export default function Articles(props) {
   const [data, isLoading] = usePrerenderData(props);
 
   return (
-    <section class="w-full prose flex flex-col gap-y-8 divide-y-2 max-w-prose mx-auto">
+    <section class="prose mx-auto flex w-full max-w-prose flex-col gap-y-8 divide-y-2">
       {!isLoading &&
         data?.data &&
         data.data.map(({ details, preview }, i) => (

@@ -19,7 +19,7 @@ export default function MapRoute({ country }) {
   }, [currentCountry]);
 
   return (
-    <main class="w-full flex flex-col gap-y-4">
+    <main class="flex w-full flex-col gap-y-4">
       <Map country={country} />
       {article?.data && (
         <ArticleContent

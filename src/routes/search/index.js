@@ -6,7 +6,7 @@ import ArticlePreview from '../../components/article/ArticlePreview';
 export default function Search({ query }) {
   const [articles, setArticles] = useState(null);
   const [index, setIndex] = useState(null);
-  const [searchQ, setQ] = useState(query);
+  const [searchQ] = useState(query);
 
   const [results, setResults] = useState(null);
 
@@ -50,7 +50,7 @@ export default function Search({ query }) {
   if (!results?.length) return;
 
   return (
-    <section class="w-full prose flex flex-col gap-y-8 divide-y-2 max-w-prose mx-auto">
+    <section class="prose mx-auto flex w-full max-w-prose flex-col gap-y-8 divide-y-2">
       {results.map((res, i) => {
         const article = articles[res.ref];
         return (
