@@ -8,7 +8,7 @@
     "dev": "preact watch --prerenderUrls ./prerender-urls.js",
     "lint": "eslint src",
     "test": "jest",
-    "upgrade": "ncu -u && pnpm i && pnpm build &&git add . && git commit -m ':arrow_up: Dependencies' && pnpm version patch"
+    "upgrade": "ncu -u && pnpm i && pnpm build && git add . && git commit -m ':arrow_up: Dependencies' && pnpm version patch"
   },
   "eslintConfig": {
     "extends": "preact",
@@ -51,7 +51,8 @@
       "glob-parent@<5.1.2": ">=5.1.2",
       "postcss@<8.2.13": ">=8.2.13",
       "node-forge@<1.0.0": ">=1.0.0",
-      "cssnano@<5.0.0": ">=5.0.15"
+      "cssnano@<5.0.0": ">=5.0.15",
+      "follow-redirects@<1.14.8": ">=1.14.8"
     }
   },
   "repository": {
