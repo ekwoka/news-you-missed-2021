@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'preact/hooks';
-import ArticleContent from '../../components/article';
+import ArticleContent from '../../components/article/ArticleContent';
 import Map from '../../components/map';
 import { getArticle } from '../../data/utils/getArticles';
 import { useGlobalState } from '../../plugins/preact/globalState';

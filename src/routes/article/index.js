@@ -1,4 +1,4 @@
-import ArticleContent from '../../components/article';
+import ArticleContent from '../../components/article/ArticleContent';
 import { usePrerenderData } from '../../plugins/preact/prerender-data-provider/hook';
 
 export default function Article(props) {
