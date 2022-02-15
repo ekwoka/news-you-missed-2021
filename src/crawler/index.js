@@ -12,6 +12,17 @@ function getDetails(data) {
   return details;
 }
 
+function getBody(data) {
+  let body = data
+    .replace(/---(.*\n)*---/, '')
+    .replace(/\[.*\]\(.*\)/g, '')
+    .replace(/\n/, '');
+  return body
+    .split('\n')
+    .filter((line) => line)
+    .join(' ');
+}
+
 function getPreview(data) {
   let preview = data
     .replace(/---(.*\n)*---/, '')
@@ -34,6 +45,7 @@ function getFolders(source) {
       path: file,
       details: getDetails(data),
       preview: getPreview(data),
+      body: getBody(data),
     };
   });
   const nodes = allContent.filter(isDirectory).map((dir) => getFolders(dir));

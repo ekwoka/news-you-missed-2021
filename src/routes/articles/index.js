@@ -1,6 +1,5 @@
-import { Link } from 'preact-router/match';
 import { usePrerenderData } from '../../plugins/preact/prerender-data-provider/hook';
-import RespImage from '../../components/respImage';
+import ArticlePreview from '../../components/article/ArticlePreview';
 
 export default function Articles(props) {
   const [data, isLoading] = usePrerenderData(props);
@@ -10,24 +9,7 @@ export default function Articles(props) {
       {!isLoading &&
         data?.data &&
         data.data.map(({ details, preview }, i) => (
-          <Link
-            href={`/article/${details.title
-              .replaceAll(' ', '-')
-              .toLowerCase()}`}
-            class="block w-full px-8 no-underline cursor-pointer mt-8"
-            key={i}>
-            <h2 class="my-4">{details.title}</h2>
-            {details.thumbnail && (
-              <RespImage
-                class="w-full max-h-[25vh] object-cover"
-                src={details.thumbnail}
-                alt={details.title}
-              />
-            )}
-            {preview && <p>{preview}</p>}
-
-            <button class="block underline text-emerald-500">Read More</button>
-          </Link>
+          <ArticlePreview details={details} preview={preview} key={i} />
         ))}
     </section>
   );
