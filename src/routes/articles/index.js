@@ -1,18 +1,29 @@
+import { Link } from 'preact-router/match';
 import { usePrerenderData } from '../../plugins/preact/prerender-data-provider/hook';
+import RespImage from '../../components/respImage';
 
 export default function Articles(props) {
   const [data, isLoading] = usePrerenderData(props);
 
   return (
-    <section class="w-full prose flex flex-col gap-y-2 divide-y-2">
+    <section class="w-full prose flex flex-col gap-y-2 divide-y-2 max-w-prose">
       {!isLoading &&
         data?.data &&
         data.data.map(({ details, preview }, i) => (
-          <article-card class="w-full px-8" key={i}>
+          <Link
+            href={`/article/${details.title}`}
+            class="block w-full px-8"
+            key={i}>
             <h2>{details.title}</h2>
-            <img src={details.thumbnail} alt={details.title} />
-            <p>{preview}</p>
-          </article-card>
+            {details.thumbnail && (
+              <RespImage
+                class="w-full max-h-[25vh] object-cover"
+                src={details.thumbnail}
+                alt={details.title}
+              />
+            )}
+            {preview && <p>{preview}</p>}
+          </Link>
         ))}
     </section>
   );
