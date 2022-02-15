@@ -32,7 +32,7 @@ export default function Article(props) {
         <Markdown
           class="max-w-prose mx-auto px-4 prose prose-emerald"
           options={articleMDOptions}>
-          {body}
+          {content}
         </Markdown>
       </>
     );
