@@ -17,8 +17,7 @@ function getPreview(data) {
     .replace(/---(.*\n)*---/, '')
     .replace(/\[.*\]\(.*\)/g, '')
     .replace(/\n/, '');
-  preview = preview.substr(0, preview.indexOf('\n') - 1);
-  return preview.length < 500 ? preview : preview.substr(0, 500);
+  return preview.split('\n').filter((line) => line)[0];
 }
 
 function getFolders(source) {

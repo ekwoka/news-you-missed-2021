@@ -18,7 +18,7 @@ module.exports = () => {
     data: articles,
   });
 
-  // adding all blog pages
+  // adding all article pages
   pages.push(
     ...articles.map((article) => {
       const data = fs
