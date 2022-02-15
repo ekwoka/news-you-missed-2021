@@ -25,7 +25,10 @@ module.exports = () => {
         .readFileSync(join('content', article.id), 'utf-8')
         .replace(/---(.*\n)*---/, '');
       return {
-        url: `/article/${article.id.replace('.md', '')}/`,
+        url: `/article/${article.id
+          .replace('.md', '')
+          .replaceAll(' ', '-')
+          .toLowerCase()}/`,
         seo: article.details,
         data: {
           details: article.details,

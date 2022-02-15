@@ -11,7 +11,9 @@ export default function Articles(props) {
         data?.data &&
         data.data.map(({ details, preview }, i) => (
           <Link
-            href={`/article/${details.title}`}
+            href={`/article/${details.title
+              .replaceAll(' ', '-')
+              .toLowerCase()}`}
             class="block w-full px-8 no-underline"
             key={i}>
             <h2>{details.title}</h2>
