@@ -11,7 +11,7 @@ export default function Article(props) {
     );
   }
   if (data?.data) {
-    const { details, content } = data.data.content;
+    const { details, content } = data.data;
     return (
       <>
         <article-details class="prose max-w-prose prose-emerald p-4 mx-auto w-full block">
