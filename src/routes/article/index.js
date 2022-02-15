@@ -1,4 +1,5 @@
 import Markdown from 'markdown-to-jsx';
+import { articleMDOptions } from '../../data/utils';
 import { usePrerenderData } from '../../plugins/preact/prerender-data-provider/hook';
 
 export default function Article(props) {
