@@ -102,7 +102,7 @@ export default function Hero() {
           </div>
           <div className="px-4 mx-auto max-w-7xl sm:px-6">
             <RespImage
-              className="relative rounded-lg shadow-lg max-h-[33vh] object-cover"
+              className="relative rounded-lg shadow-lg max-h-[33vh] object-cover w-full"
               src="https://placekitten.com/3000/3000"
               alt="This is a Kitten"
             />

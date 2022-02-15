@@ -1,5 +1,3 @@
-import RespImage from '../../components/respImage';
-
 function getDetails(data) {
   const matadata = data.match(/---(.*\n)*---/)[0];
   const details = matadata.match(/(.*):(.*)/g).reduce((obj, detail) => {

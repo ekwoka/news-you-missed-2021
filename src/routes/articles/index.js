@@ -6,7 +6,7 @@ export default function Articles(props) {
   const [data, isLoading] = usePrerenderData(props);
 
   return (
-    <section class="w-full prose flex flex-col gap-y-2 divide-y-2 max-w-prose mx-auto">
+    <section class="w-full prose flex flex-col gap-y-8 divide-y-2 max-w-prose mx-auto">
       {!isLoading &&
         data?.data &&
         data.data.map(({ details, preview }, i) => (
@@ -14,9 +14,9 @@ export default function Articles(props) {
             href={`/article/${details.title
               .replaceAll(' ', '-')
               .toLowerCase()}`}
-            class="block w-full px-8 no-underline"
+            class="block w-full px-8 no-underline cursor-pointer mt-8"
             key={i}>
-            <h2>{details.title}</h2>
+            <h2 class="my-4">{details.title}</h2>
             {details.thumbnail && (
               <RespImage
                 class="w-full max-h-[25vh] object-cover"
