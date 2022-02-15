@@ -20,6 +20,7 @@ specifiers:
   jest: ^27.5.1
   jest-preset-preact: ^4.0.5
   markdown-to-jsx: ^7.1.6
+  pnpm: ^6.31.0
   postcss: ^8.4.6
   preact: 10.6.6
   preact-cli: 3.3.5
@@ -41,6 +42,7 @@ dependencies:
   jest: 27.5.1
   jest-preset-preact: 4.0.5_a298a3f3d987561dd3ff854fe5cecc01
   markdown-to-jsx: 7.1.6_preact@10.6.6
+  pnpm: 6.31.0
   preact: 10.6.6
   preact-cli-plugin-netlify: 1.6.0
   preact-render-to-string: 5.1.19_preact@10.6.6
@@ -8012,6 +8014,12 @@ packages:
     transitivePeerDependencies:
       - typescript
     dev: true
+
+  /pnpm/6.31.0:
+    resolution: {integrity: sha512-YUCyLI2J2wQsHWgcRYR8wUrTWsE0E8GX46XKtdXcUiE0GJJYi5saRy2Y8BMfLtlDHshHLs2U/KO1e5gsftJTFA==}
+    engines: {node: '>=12.17'}
+    hasBin: true
+    dev: false
 
   /portfinder/1.0.28:
     resolution: {integrity: sha512-Se+2isanIcEqf2XMHjyUKskczxbPH7dQnlMjXX6+dybayyHvAf/TCgyMRlzf/B6QDhAEFOGes0pzRo3by4AbMA==}

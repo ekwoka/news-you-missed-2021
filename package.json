@@ -34,6 +34,7 @@
     "jest": "^27.5.1",
     "jest-preset-preact": "^4.0.5",
     "markdown-to-jsx": "^7.1.6",
+    "pnpm": "^6.31.0",
     "preact": "10.6.6",
     "preact-cli-plugin-netlify": "1.6.0",
     "preact-render-to-string": "^5.1.19",
