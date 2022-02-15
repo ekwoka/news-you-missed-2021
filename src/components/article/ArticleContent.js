@@ -8,7 +8,7 @@ export default function ArticleContent({ details, content }) {
       <article-details class="prose max-w-prose prose-emerald p-4 mx-auto w-full block">
         <h1 class="mb-4">{details.title}</h1>
         {details.url && (
-          <a href={details.url} target="_blank">
+          <a href={details.url} target="_blank" rel="noreferrer noopener">
             See Article
           </a>
         )}

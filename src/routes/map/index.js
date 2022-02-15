@@ -8,11 +8,14 @@ export default function MapRoute({ country }) {
   const [currentCountry] = useGlobalState('country');
   const [article, setArticle] = useState(null);
 
-  useEffect(async () => {
-    if (!currentCountry) return setArticle(null);
-    const nextArticle = await getArticle(currentCountry);
-    if (nextArticle.e) return console.log(nextArticle.e);
-    setArticle(nextArticle);
+  useEffect(() => {
+    async function fetchData() {
+      if (!currentCountry) return setArticle(null);
+      const nextArticle = await getArticle(currentCountry);
+      if (nextArticle.e) return console.log(nextArticle.e);
+      setArticle(nextArticle);
+    }
+    fetchData();
   }, [currentCountry]);
 
   return (

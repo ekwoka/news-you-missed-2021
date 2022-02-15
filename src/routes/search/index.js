@@ -27,12 +27,15 @@ export default function Search({ query }) {
     setIndex(idx);
   }, [articles]);
 
-  useEffect(async () => {
-    console.log('Getting Article Data');
-    const articles = await getArticles();
-    if (articles.e) return console.log(e);
-    console.log(articles.data[0]);
-    setArticles(articles.data);
+  useEffect(() => {
+    async function fetchData() {
+      console.log('Getting Article Data');
+      const articles = await getArticles();
+      if (articles.e) return console.log(articles.e);
+      console.log(articles.data[0]);
+      setArticles(articles.data);
+    }
+    fetchData();
   }, []);
 
   useEffect(() => {
