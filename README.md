@@ -1,22 +1,15 @@
-# preact-test
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2396f697-0ba4-4fe6-9bd6-6af500cb8b5c/deploy-status)](https://app.netlify.com/sites/webjam-news/deploys)
 
-## CLI Commands
+# The News You Missed - 2021
 
-```bash
-# install dependencies
-npm install
+This is a collection of articles, one news item from each country on the planet, that you probably missed during this last year, made for the Webjam Winter 2022 Front End Development contest.
 
-# serve with hot reload at localhost:8080
-npm run dev
+This site is adapted from Half and Interesting's video of the same title.
 
-# build for production with minification
-npm run build
+## [View Site](https://webjam-news.netlify.app/)
 
-# test the production build locally
-npm run serve
+## Technologies
 
-# run tests with jest and enzyme
-npm run test
-```
-
-For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
+Framework: Preact
+Styling: TailwindCSS
+Content: Netlify CMS & Markdown-to-JSX
