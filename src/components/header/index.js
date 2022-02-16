@@ -3,9 +3,9 @@ import { Link } from 'preact-router/match';
 const NAVIGATION = [
   { name: 'Map', href: '/map' },
   { name: 'Random', href: '/random' },
-  { name: 'Table', href: '/articles' },
+  { name: 'All', href: '/articles' },
   { name: 'Favorites', href: '/favorites' },
-  { name: 'Search', func: 'openSearch' },
+  { name: 'Search', href: '/search' },
 ];
 
 export default function Header() {

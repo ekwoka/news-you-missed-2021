@@ -13,10 +13,15 @@ module.exports = () => {
     { url: '/map/' },
   ];
 
-  pages.push({
-    url: '/articles/',
-    data: articles,
-  });
+  pages.push(
+    {
+      url: '/articles/',
+      data: articles,
+    },
+    {
+      url: '/search',
+    }
+  );
 
   // adding all article pages
   pages.push(

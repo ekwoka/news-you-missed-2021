@@ -29,4 +29,37 @@
     cursor: pointer;
     fill: #961c05;
   }
+
+  floating-label {
+    @apply relative mt-4 w-full pt-3;
+  }
+  floating-label input[type='text'],
+  floating-label input[type='email'],
+  floating-label input[type='search'] {
+    @apply w-full border-0 border-b-4 border-emerald-600 px-4 py-2 placeholder-transparent shadow-md shadow-emerald-600/50 focus:outline-none focus:ring-0;
+  }
+  floating-label input[type='text']:placeholder-shown,
+  floating-label input[type='email']:placeholder-shown,
+  floating-label input[type='search']:placeholder-shown {
+    @apply border-neutral-400 shadow-neutral-400/50 focus:border-emerald-400 focus:shadow-emerald-400/50;
+  }
+  floating-label input[type='text']:placeholder-shown ~ label,
+  floating-label input[type='email']:placeholder-shown ~ label,
+  floating-label input[type='search']:placeholder-shown ~ label {
+    @apply top-2 text-base text-gray-600;
+  }
+
+  floating-label input[type='text']:focus ~ label,
+  floating-label input[type='email']:focus ~ label,
+  floating-label input[type='search']:focus ~ label {
+    @apply -top-5  text-sm text-gray-600;
+  }
+
+  floating-label label {
+    @apply pointer-events-none absolute left-4 -top-5 w-full text-sm text-gray-800 transition-all;
+  }
+
+  floating-label ~ button {
+    @apply md:mt-4;
+  }
 }

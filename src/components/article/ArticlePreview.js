@@ -1,12 +1,17 @@
 import RespImage from '../../components/respImage';
 import { Link } from 'preact-router/match';
+import { route } from 'preact-router';
 
 export default function ArticlePreview({ details, preview }) {
   return (
-    <Link
-      href={`/article/${details.title.replaceAll(' ', '-').toLowerCase()}`}
-      class="mt-8 block w-full cursor-pointer px-8 no-underline">
-      <h2 class="my-4">{details.title}</h2>
+    <article-card class="mt-8 block w-full px-8">
+      <h2
+        class="my-4 cursor-pointer"
+        onClick={() =>
+          route(`/article/${details.title.replaceAll(' ', '-').toLowerCase()}`)
+        }>
+        {details.title}
+      </h2>
       {details.thumbnail && (
         <RespImage
           class="max-h-[25vh] w-full object-cover"
@@ -16,7 +21,11 @@ export default function ArticlePreview({ details, preview }) {
       )}
       {preview && <p>{preview}</p>}
 
-      <button class="block text-emerald-500 underline">Read More</button>
-    </Link>
+      <Link
+        href={`/article/${details.title.replaceAll(' ', '-').toLowerCase()}`}
+        class="block text-emerald-600 underline">
+        Read More
+      </Link>
+    </article-card>
   );
 }

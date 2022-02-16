@@ -21,7 +21,7 @@ export default function ArticleContent({ details, content }) {
         />
       )}
       <Markdown
-        class="prose prose-emerald mx-auto max-w-prose px-4"
+        class="prose prose-emerald mx-auto max-w-prose px-4 pb-12"
         options={articleMDOptions}>
         {content}
       </Markdown>
