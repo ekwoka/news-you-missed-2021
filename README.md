@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2396f697-0ba4-4fe6-9bd6-6af500cb8b5c/deploy-status)](https://app.netlify.com/sites/webjam-news/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2396f697-0ba4-4fe6-9bd6-6af500cb8b5c/deploy-status)](https://webjam-news.netlify.app/)
 
 # The News You Missed - 2021
 

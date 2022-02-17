@@ -32,7 +32,7 @@ export default function Map({ country }) {
       setScale(1);
       return;
     }
-    route(`/map/${target.getAttribute('title')}`);
+    route(`/map/${target.getAttribute('title').toLowerCase()}`);
     setActive(target.getAttribute('title'));
     retarget(target.getBBox());
   }
@@ -71,7 +71,7 @@ export default function Map({ country }) {
         className="map-svg trasnition-transform w-full max-w-screen-md duration-[2s]"
       />
 
-      <div class="absolute bottom-1 z-10 mx-auto min-w-max max-w-sm rounded bg-gray-100 py-2 px-4 shadow">
+      <div class="absolute bottom-1 z-10 mx-auto min-w-max max-w-sm rounded bg-gray-100 py-2 px-4 capitalize shadow">
         {active || 'Select a country on the map'}
       </div>
     </section>

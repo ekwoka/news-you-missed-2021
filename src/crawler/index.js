@@ -17,10 +17,7 @@ function getBody(data) {
     .replace(/---(.*\n)*---/, '')
     .replace(/\[.*\]\(.*\)/g, '')
     .replace(/\n/, '');
-  return body
-    .split('\n')
-    .filter((line) => line)
-    .join(' ');
+  return body;
 }
 
 function getPreview(data) {
@@ -40,10 +37,10 @@ function getFolders(source) {
   let allContent = getAllListings(source);
   const edges = allContent.filter(isValidFile).map((file) => {
     const data = fs.readFileSync(file, 'utf-8');
+    const details = getDetails(data);
     return {
-      id: file.substr(file.lastIndexOf('/') + 1),
-      path: file,
-      details: getDetails(data),
+      title: details.title,
+      details,
       preview: getPreview(data),
       body: getBody(data),
     };

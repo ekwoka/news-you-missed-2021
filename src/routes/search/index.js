@@ -1,20 +1,21 @@
 import { useEffect, useState } from 'preact/hooks';
 import lunr from 'lunr';
-import { getArticles } from '../../data/utils/getArticles';
 import ArticlePreview from '../../components/article/ArticlePreview';
 import Searchbar from '../../components/search';
 import debounce from '../../data/utils/debounce';
 import { route } from 'preact-router';
+import useArticles from '../../hooks/useArticles';
+import shuffleArray from '../../data/utils/shuffleArray';
 
 export default function Search({ query }) {
-  const [articles, setArticles] = useState([]);
+  const [articles, ready] = useArticles(shuffleArray);
   const [index, setIndex] = useState(null);
   const [searchQ, setQ] = useState(query != 'undefined' ? query : '');
 
   const [results, setResults] = useState([]);
 
   useEffect(() => {
-    if (!articles || !articles.length) return;
+    if (!ready || index) return;
     const idx = lunr(function () {
       this.field('title');
       this.field('body');
@@ -26,16 +27,7 @@ export default function Search({ query }) {
       });
     });
     setIndex(idx);
-  }, [articles]);
-
-  useEffect(() => {
-    async function fetchData() {
-      const articles = await getArticles();
-      if (articles.e) return console.log(articles.e);
-      setArticles(articles.data);
-    }
-    fetchData();
-  }, []);
+  }, [articles, ready, index]);
 
   useEffect(() => {
     if (!searchQ || !index) return setResults([]);
@@ -65,7 +57,8 @@ export default function Search({ query }) {
       />
       <search-summary class="prose mx-auto flex max-w-prose flex-row justify-between border-0 border-b-2 border-emerald-600/50 px-4 pb-2 pt-8">
         <span class="block">
-          {results.length || searchQ.length < 3 ? articles.length : 0} Results
+          {results.length || (searchQ.length < 3 ? articles.length : 0)} Result
+          {results.length === 1 ? '' : 's'}
         </span>
         <span class="block capitalize">
           {results.length ? `for ${searchQ}` : 'showing all articles'}
@@ -83,21 +76,25 @@ export default function Search({ query }) {
               />
             );
           })
-        ) : articles.length > 0 && searchQ.length < 3 ? (
-          articles.map((article, i) => {
-            return (
-              <ArticlePreview
-                details={article.details}
-                preview={article.preview}
-                key={i}
-              />
-            );
-          })
+        ) : articles.length > 0 ? (
+          searchQ.length < 3 ? (
+            articles.map((article, i) => {
+              return (
+                <ArticlePreview
+                  details={article.details}
+                  preview={article.preview}
+                  key={i}
+                />
+              );
+            })
+          ) : (
+            <div class="flex flex-col gap-y-4 pt-8 text-center">
+              <span>No Results</span>
+              <span>Try broadening your search, or using other terms</span>
+            </div>
+          )
         ) : (
-          <div class="flex flex-col gap-y-4 pt-8 text-center">
-            <span>No Results</span>
-            <span>Try broadening your search, or using other terms</span>
-          </div>
+          <div>Loading</div>
         )}
       </section>
     </>

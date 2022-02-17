@@ -1,10 +1,18 @@
 import { route } from 'preact-router';
-import { Nations } from '../../data';
+import { useEffect } from 'preact/hooks';
+import useArticles from '../../hooks/useArticles';
 
-export default function () {
-  const NATIONS = Object.entries(Nations);
-  const newIndex = Math.floor(Math.random() * NATIONS.length);
-  route(
-    `/article/${NATIONS[newIndex][1].name.replaceAll(' ', '-').toLowerCase()}`
-  );
+export default function Random() {
+  const [articles, ready] = useArticles();
+
+  useEffect(() => {
+    if (!ready) return;
+    const newIndex = Math.floor(Math.random() * articles.length);
+    route(
+      `/article/${articles[newIndex].details.title
+        .replaceAll(' ', '-')
+        .toLowerCase()}`
+    );
+  }, [articles, ready]);
+  return <></>;
 }

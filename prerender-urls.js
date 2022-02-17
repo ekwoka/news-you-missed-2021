@@ -4,6 +4,11 @@ const fs = require('fs');
 
 const articles = generateFileList(join(__dirname, 'content')).edges;
 
+const articleData = articles.map((article) => ({
+  ...article,
+  url: `/article/${article.title.replaceAll(' ', '-').toLowerCase()}/`,
+}));
+
 module.exports = () => {
   const pages = [
     {
@@ -11,37 +16,10 @@ module.exports = () => {
       seo: {},
     },
     { url: '/map/' },
+    { url: '/search/' },
+    { url: '/articles', data: articles },
+    ...articleData,
   ];
-
-  pages.push(
-    {
-      url: '/articles/',
-      data: articles,
-    },
-    {
-      url: '/search',
-    }
-  );
-
-  // adding all article pages
-  pages.push(
-    ...articles.map((article) => {
-      const data = fs
-        .readFileSync(join('content', article.id), 'utf-8')
-        .replace(/---(.*\n)*---/, '');
-      return {
-        url: `/article/${article.id
-          .replace('.md', '')
-          .replaceAll(' ', '-')
-          .toLowerCase()}/`,
-        seo: article.details,
-        data: {
-          details: article.details,
-          content: data,
-        },
-      };
-    })
-  );
 
   return pages;
 };

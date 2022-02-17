@@ -19,7 +19,7 @@ export default function ArticlePreview({ details, preview }) {
           alt={details.title}
         />
       )}
-      {preview && <p>{preview}</p>}
+      {preview && <p class="line-clamp-3">{preview}</p>}
 
       <Link
         href={`/article/${details.title.replaceAll(' ', '-').toLowerCase()}`}
