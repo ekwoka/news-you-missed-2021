@@ -33,7 +33,7 @@ specifiers:
   prettier-plugin-tailwindcss: ^0.1.7
   react: npm:preact@^10.6.6
   react-dom: npm:preact@^10.6.6
-  react-svg: ^14.1.11
+  react-svg: ^14.1.12
   sirv-cli: 2.0.2
   tailwindcss: ^3.0.23
   typescript: ^4.5.5
@@ -52,7 +52,7 @@ dependencies:
   prettier-plugin-tailwindcss: 0.1.7_prettier@2.5.1
   react: /preact/10.6.6
   react-dom: /preact/10.6.6
-  react-svg: 14.1.11_preact@10.6.6+preact@10.6.6
+  react-svg: 14.1.12_preact@10.6.6+preact@10.6.6
   tailwindcss: 3.0.23_autoprefixer@10.4.2
   typescript: 4.5.5
 
@@ -1752,8 +1752,8 @@ packages:
       tailwindcss: 3.0.23_autoprefixer@10.4.2
     dev: false
 
-  /@tanem/svg-injector/10.1.16:
-    resolution: {integrity: sha512-eKVUBkNaqEgpkrFi7+qC297aiq6XXocYcQSAfOtMJ5TJYUtHh6mSLbdmb5flTxD4zSyqtmBO7v1lY70OxY14Nw==}
+  /@tanem/svg-injector/10.1.18:
+    resolution: {integrity: sha512-XvF7aZU5QfzjOiN4OPGleCCOkTUskuqWQkFqMpgQ4P6ZruraOLQFF2zdvwTFVgJIiUUNUFE6jE2yj823W3qlkg==}
     dependencies:
       '@babel/runtime': 7.17.2
       content-type: 1.0.4
@@ -8864,14 +8864,14 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-svg/14.1.11_preact@10.6.6+preact@10.6.6:
-    resolution: {integrity: sha512-jreFDHWwVF1qANbWfZp5Ty/s1/PZKHCRMq9eQi/2o5P4jDzUrlkbzXyo80Rj56txvV5aXKwQPXcIQoWJqyfH9A==}
+  /react-svg/14.1.12_preact@10.6.6+preact@10.6.6:
+    resolution: {integrity: sha512-rYOA9iuFHVMIJ5x/wGFk8CQ+GCduQGm2aCEaX1OatLYvxnKbsiSYznmSPnzmR+g21YwOtNVgBTh9hrOIf3m3RQ==}
     peerDependencies:
       react: ^15.5.4 || ^16.0.0 || ^17.0.0
       react-dom: ^15.5.4 || ^16.0.0 || ^17.0.0
     dependencies:
       '@babel/runtime': 7.17.2
-      '@tanem/svg-injector': 10.1.16
+      '@tanem/svg-injector': 10.1.18
       '@types/prop-types': 15.7.4
       prop-types: 15.8.1
       react: /preact/10.6.6
