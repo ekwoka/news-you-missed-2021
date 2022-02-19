@@ -7,3 +7,4 @@ size-plugin.json
 .netlify
 *.vtt
 .obsidian
+.npmrc

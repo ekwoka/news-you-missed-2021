@@ -1,6 +1,6 @@
 {
   "name": "newsreflection",
-  "version": "0.10.1",
+  "version": "0.10.0",
   "description": "A site made for Webjam Winter 2022",
   "scripts": {
     "build": "preact build --prerenderUrls ./prerender-urls.js",
@@ -9,7 +9,7 @@
     "lint": "eslint src && prettier --check src",
     "lint-fix": "eslint --fix src && prettier --write src",
     "test": "jest",
-    "upgrade": "ncu -u && pnpm i && pnpm build && git add . && git commit -m ':arrow_up: Dependencies' && pnpm version patch"
+    "upgrade": "ncu -u && pnpm i && pnpm build && git commit -S -am ':arrow_up: Dependencies' && pnpm version patch"
   },
   "eslintConfig": {
     "extends": "preact",
