@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Uraguay
+title: Uruguay
 ---
 
 Netflix further expanded its reach when it greenlit the company’s first feature-length film shot in Uruguay.

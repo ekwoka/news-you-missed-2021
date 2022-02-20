@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Bosnia-Herzegovina
+title: Bosnia and Herzegovina
 ---
 
 Though hard to imagine, things are getting more complicated in a country with two names and three presidents.

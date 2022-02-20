@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Equitorial Guinea
+title: Equatorial Guinea
 ---
 
 In another story about West African instability, Guinea junta leader Mamady Doumbouya was sworn in after a successful September coup, marking the fourth coup in the region in the past year.

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Alberia
+title: Algeria
 ---
 
 Over on the northwest tip of Africa, an ongoing conflict between Algeria and Morocco might leave Spain in the cold.

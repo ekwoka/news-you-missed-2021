@@ -1,6 +1,6 @@
 ---
 layout: article
-title: The Ivory Coast
+title: Ivory Coast
 ---
 
 In the Ivory Coast, stamping out illegal cocoa grow operations has proved next to impossible.
