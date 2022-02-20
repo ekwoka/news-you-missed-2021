@@ -5,6 +5,4 @@ setupRouting();
 
 const urlsToCache = getFiles();
 
-urlsToCache.push({ url: `/articles/${PRERENDER_DATA_FILE_NAME}` });
-
 setupPrecaching(urlsToCache);
