@@ -2,6 +2,7 @@
 layout: article
 title: Belgium
 ---
+
 Expansion is something that a Belgian farmer accidentally did when he moved a several-hundred pound stone seven feet into France.
 
 The historic markers delineate the borders between the two countries, and a team of Frenchmen who patrol the remote countryside verifying the positions noticed the errant stone.

@@ -2,6 +2,7 @@
 layout: article
 title: Bahrain
 ---
+
 Bahrain is keen on finding a bit more room, too.
 
 So keen, in fact, that the archipelago nation announced plans to expand its landmass by 60%.

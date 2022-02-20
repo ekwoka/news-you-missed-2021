@@ -2,6 +2,7 @@
 layout: article
 title: Serbia
 ---
+
 Cristiano Ronaldo couldn’t wait to get home after a controversial call in Serbia cost him and his country important World Cup qualifying points.
 
 However, throwing his captain’s armband down in disgust as he exited the pitch unintentionally did a world of good for a six-month-old Serbian boy with spinal muscular atrophy.

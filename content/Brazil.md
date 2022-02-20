@@ -2,6 +2,7 @@
 layout: article
 title: Brazil
 ---
+
 Birds are adapting to changing material living conditions.
 
 A study of 77 non-migratory birds undertaken in Brazil has shown that each species has become smaller in stature over the past 40 years.

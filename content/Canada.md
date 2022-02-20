@@ -2,6 +2,7 @@
 layout: article
 title: Canada
 ---
+
 This is a story about the good guy winning, but this time, it’s a lobster.
 
 A Canadian grocer noticed that no one was purchasing a certain carrot-colored crustacean, and on top of that, it was being picked on by other lobsters in the tank.

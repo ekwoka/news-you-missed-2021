@@ -2,6 +2,7 @@
 layout: article
 title: United States of America
 ---
+
 2021 wasn’t all spying, censorship, and general contention, there were positive developments too: United States-based dictionary.com named “allyship” its word of the year.
 
 Officially added to dictionary.com in 2021, “allyship” rose in popularity during the Black Lives Matter movements across the world but its definition makes clear that its applications are even farther-reaching.

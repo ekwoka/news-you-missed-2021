@@ -2,6 +2,7 @@
 layout: article
 title: France
 ---
+
 On the coast, France and the United Kingdom finally settled some post-Brexit bickering over fishing.
 
 France wanted the British government to issue a number of fishing licenses to small French boats so they could continue harvesting in British waters, and the Brits stalled, citing a number of technicalities from the French side.

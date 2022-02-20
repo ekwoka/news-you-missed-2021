@@ -2,6 +2,7 @@
 layout: article
 title: Mauritius
 ---
+
 Sending mail to the Chagos archipelago became a bit more difficult this year.
 
 Recognizing Mauritius' sovereignty over the chain of islands that’s now one of Britain’s last and most controversial colonial holdings, the UN’s postal union decided it would no longer recognize postage stamps issued by the “British Indian Overseas Territories of the UK.”

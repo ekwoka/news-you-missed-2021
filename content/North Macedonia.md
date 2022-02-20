@@ -2,6 +2,7 @@
 layout: article
 title: North Macedonia
 ---
+
 While other parts of former Yugoslavia threatened to fall apart, North Macedonia celebrated 2021 as the year marked the 30th anniversary of its peacefully-established independence.
 
 A military parade through the capital of Skopje and celebrations across the country marked the occasion.

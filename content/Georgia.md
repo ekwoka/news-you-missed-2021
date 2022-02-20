@@ -2,6 +2,7 @@
 layout: article
 title: Georgia
 ---
+
 Forward-thinking was the praise Georgia thought it might reap when the country broke ground on its “hypermodern” parliament building a decade ago.
 
 Today though, it sits empty, and its glass windows meant to signal governmental transparency gather dust.

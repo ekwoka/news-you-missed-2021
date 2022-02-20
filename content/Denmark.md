@@ -2,6 +2,7 @@
 layout: article
 title: Denmark
 ---
+
 We’ve talked a lot about ways to create green energy.
 
 Another way to fight climate change is by consuming less meat, and Denmark is leading the European Union in this effort by giving $90 million to farmers who produce plant-based foods over the next five years.

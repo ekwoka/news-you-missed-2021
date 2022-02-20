@@ -2,6 +2,7 @@
 layout: article
 title: Seychelles
 ---
+
 The Coco de Mer, a palm tree that produces the world’s largest, and subjectively, the most inappropriate, seed in the world, only exists in Seychelles.
 
 In fact, the tree only grows on two of the archipelago’s 115 islands while the rare seed, sold mostly to bemused tourists, fetches up to $260.

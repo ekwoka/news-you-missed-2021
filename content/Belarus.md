@@ -2,6 +2,7 @@
 layout: article
 title: Belarus
 ---
+
 Bucking tradition at the Tokyo Olympics, one sprinter, rather than running for her country, ran away from it.
 
 Accusing her coaches of negligence before being pulled from her event and pressured to return home to Belarus, Krystsina Tsimanouskaya fled to the Polish embassy where she was granted a humanitarian visa.

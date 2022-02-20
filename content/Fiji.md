@@ -2,6 +2,7 @@
 layout: article
 title: Fiji
 ---
+
 When we say coral reef, you probably say, ugh.
 
 That’s because a lot of news about the ocean’s critical habitat for fish species is generally bad.

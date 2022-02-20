@@ -2,6 +2,7 @@
 layout: article
 title: Qatar
 ---
+
 In a country that’s been in the headlines for all the wrong reasons the past few years has emerged a more positive story.
 
 Rolls-Royce and Qatar announced a multi-year, multi-billion-dollar partnership aimed to foster green technology companies.

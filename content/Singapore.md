@@ -2,6 +2,7 @@
 layout: article
 title: Singapore
 ---
+
 Have you heard of Grab or a SPAC? In this story, we have both.
 
 Grab is a Singapore-based superapp that offers everything from ride sharing to banking in one tap.

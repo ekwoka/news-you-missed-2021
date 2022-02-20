@@ -2,6 +2,7 @@
 layout: article
 title: Greece
 ---
+
 While heated geopolitical relations, and politicians’ hot air pose a threat in the Mediterranean, so too does literal heat.
 
 Greece, particularly vulnerable to climate change generally, and especially heatwaves, has decided to begin to name the extreme bouts of heat.

@@ -2,6 +2,7 @@
 layout: article
 title: Ecuador
 ---
+
 In Ecuador’s most famous islands, Darwin’s Arch died of natural causes.
 
 Just a kilometer, or 0.6 miles, off the coast of Darwin Island in the Galapagos, the arch was a popular destination for divers and photographers.

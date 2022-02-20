@@ -2,6 +2,7 @@
 layout: article
 title: United arab Emirates
 ---
+
 2021 marked the end of the Free Latifa campaign, as the movement hatched three years ago finally saw its vision come to fruition.
 
 Princess Latifa was captured by her father, Dubai’s Sheikh Mohammed bin Rashid al-Maktoum, when trying to express a little self-determination and leave the United Arab Emirates.

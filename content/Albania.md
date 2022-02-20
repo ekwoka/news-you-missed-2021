@@ -2,6 +2,7 @@
 layout: article
 title: Albania
 ---
+
 One European country has proved especially welcoming to Afghan refugees, and it’s one of the continent’s poorest.
 
 Albania, bolstered by a culture familiar with and receptive to immigrants, pledged to take in as many as 4,000 Afghans.

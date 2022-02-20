@@ -2,6 +2,7 @@
 layout: article
 title: Lichtenstein
 ---
+
 Low government limitations have led to a hot streak of gambling development in Lichtenstein, one of the world’s smallest countries, now home to five casinos.
 
 That may sound like a so-so number, but it puts its per capita above Monaco, Macau, and Las Vegas’ Clark County.

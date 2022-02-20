@@ -2,6 +2,7 @@
 layout: article
 title: The Dominican Republic
 ---
+
 A mafia fugitive did himself in by appearing on a YouTube cooking show in his adopted home of the Dominican Republic.
 
 Though he never showed his face while flashing his Italian culinary chops, Marc Feren Claude Biart’s tattoos gave him away to the police.

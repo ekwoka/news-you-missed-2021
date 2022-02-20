@@ -2,6 +2,7 @@
 layout: article
 title: Germany
 ---
+
 The second time was not as successful for a criminal in Germany, whose first crime involved a burglary in 2012.
 
 He got away with that one and a bite of a sausage, which left behind some DNA evidence that police held onto.

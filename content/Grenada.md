@@ -2,6 +2,7 @@
 layout: article
 title: Grenada
 ---
+
 Grenada announced the completion of a renovation to its underwater sculpture park.
 
 Repairs and cleaning of already existing sculptures were part of the project, but the most exciting bit was the new 82-piece installation celebrating Grenadian culture.

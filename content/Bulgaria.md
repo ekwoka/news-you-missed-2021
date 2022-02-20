@@ -2,6 +2,7 @@
 layout: article
 title: Bulgaria
 ---
+
 International collaboration was the context that informed an embarrassing development in Bulgaria.
 
 Led by the US Army, the NATO military exercise called Swift Response brought together 7,000 paratroopers from 10 member nations for some joint practice.

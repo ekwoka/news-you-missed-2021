@@ -2,6 +2,7 @@
 layout: article
 title: Trinidad and Tobago
 ---
+
 Michael B. Jordan understands firsthand the baggage that comes with a name.
 
 Perhaps that’s why the actor was willing to change the name of his new rum brand, initially called “J’Ouvert” once Trinidad and Tobagonians took offense to his trademarking the term that refers to the opening of their famed Carnival.

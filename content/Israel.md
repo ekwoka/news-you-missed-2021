@@ -2,6 +2,7 @@
 layout: article
 title: Israel
 ---
+
 Spying seems to be a trend, but the United States told Israel they don’t want to play that game.
 
 Israeli spyware maker NSO Group was placed on an American blacklist after it was reasonably confirmed that NSO’s signature product, Pegasus, was used by foreign governments against dissidents, journalists, diplomats, and clergy members.

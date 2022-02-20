@@ -2,6 +2,7 @@
 layout: article
 title: Bahamas
 ---
+
 At the other end of the Caribbean, three Cubans survived 33 days on a barren Bahamian island before being rescued by the US Coast Guard.
 
 After capsizing at sea, likely in an attempt to flee Cuba, the three washed up on one of the least-hospitable Bahamas, surviving on coconut water, conch shells, and rats.
