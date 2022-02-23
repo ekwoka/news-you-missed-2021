@@ -17,6 +17,8 @@ export default function Map({ country }) {
     offset.push(width, height);
     offsetFactor = width / svg.getBoundingClientRect().width;
 
+    console.log(offset, offsetFactor);
+
     if (!country) return;
     const countryEl = svg.querySelector(`path[title="${country}"]`);
 
