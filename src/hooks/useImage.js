@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'preact/hooks';
 import { useInView } from 'react-intersection-observer';
 
-const cache = {};
+const cache = getStorageProxy('image-chache');
 const queue = [];
 let running = false;
 let errorStreak = 0;
@@ -19,11 +19,9 @@ export default function useImage(query, delay = false) {
     if ((delay && !inView) || image) return;
     const q = query.replace(/[^a-zA-Z0-9 ]/g, '');
     if (cache[q]) {
-      console.log('using cache');
       setImage(cache[q]);
       setReady(true);
     } else {
-      console.log('fetching');
       addToQueue(q, setImage, setReady);
     }
   }, [query, inView, delay]);
@@ -86,20 +84,23 @@ async function processQueue() {
   errorStreak = 0;
 }
 
-function getStorage(prefix) {
+function getStorageProxy(prefix) {
   if (typeof window === 'undefined') return {};
   console.log('buidling proxy');
   return new Proxy(
     {},
     {
       set: (obj, prop, value) => {
-        console.log('setting:', prop);
-        localStorage.setItem(`${prefix}.${prop}`, JSON.stringify(value));
+        localStorage.setItem(
+          `${prefix}.${prop.replace(' ', '-')}`,
+          JSON.stringify(value)
+        );
+        return true;
       },
       get: (obj, prop) => {
-        // return obj[prop];
-        console.log('getting', prop);
-        return JSON.parse(localStorage.getItem(`${prefix}.${prop}`));
+        return JSON.parse(
+          localStorage.getItem(`${prefix}.${prop.replace(' ', '-')}`)
+        );
       },
     }
   );
