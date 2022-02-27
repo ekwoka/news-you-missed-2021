@@ -1,14 +1,11 @@
 import ArticleContent from '../../components/article/ArticleContent';
+import PlaceholderArticle from '../../components/placeholders/article';
 import { useArticle } from '../../hooks/useArticles';
 
 export default function Article(props) {
   const [data, ready] = useArticle(props.country);
   if (!ready) {
-    return (
-      <div className="flex h-full w-full items-center justify-center">
-        Loading...
-      </div>
-    );
+    return <PlaceholderArticle />;
   }
   if (ready) {
     const { details, body, preview } = data;

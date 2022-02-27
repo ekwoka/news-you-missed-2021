@@ -3,6 +3,7 @@ import { Link } from 'preact-router/match';
 import { route } from 'preact-router';
 import useImage from '../../hooks/useImage';
 import { useState } from 'preact/hooks';
+import PlaceholderImage from '../placeholders/image';
 
 export default function ArticlePreview({ details, preview }) {
   const [image, ready, ref] = useImage(
@@ -30,6 +31,7 @@ export default function ArticlePreview({ details, preview }) {
           onError={() => setError(true)}
         />
       )}
+      {!ready && !error && <PlaceholderImage class="h-[25vh] rounded-lg" />}
       {preview && <p class="line-clamp-3">{preview}</p>}
 
       <Link

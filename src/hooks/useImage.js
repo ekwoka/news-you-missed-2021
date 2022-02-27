@@ -99,7 +99,6 @@ async function processQueue() {
     }
   }
   if (errorStreak >= 3) console.log('Error streak reached');
-  if (errorStreak < 3) console.log('Queue emptied');
   running = false;
   errorStreak = 0;
 }
