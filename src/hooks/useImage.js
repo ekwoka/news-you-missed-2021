@@ -111,7 +111,6 @@ async function processQueue() {
 
 function getStorageProxy(prefix) {
   if (typeof window === 'undefined') return {};
-  console.log('buidling proxy');
   return new Proxy(
     {},
     {
