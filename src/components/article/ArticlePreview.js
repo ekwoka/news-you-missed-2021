@@ -1,22 +1,33 @@
 import RespImage from '../../components/respImage';
 import { Link } from 'preact-router/match';
 import { route } from 'preact-router';
+import useImage from '../../hooks/useImage';
+import { useState } from 'preact/hooks';
 
 export default function ArticlePreview({ details, preview }) {
+  const [image, ready, ref] = useImage(
+    `${details.title} ${details.keywords}`,
+    true
+  );
+  const [error, setError] = useState(false);
   return (
     <article-card class="mt-8 block w-full px-8">
       <h2
         class="my-4 cursor-pointer"
+        ref={ref}
         onClick={() =>
           route(`/article/${details.title.replaceAll(' ', '-').toLowerCase()}`)
         }>
         {details.title}
       </h2>
-      {details.thumbnail && (
+      {ready && !error && (
         <RespImage
           class="max-h-[25vh] w-full object-cover"
-          src={details.thumbnail}
-          alt={details.title}
+          src={image.contentUrl}
+          width={image.width}
+          height={image.height}
+          alt={image.title}
+          onError={() => setError(true)}
         />
       )}
       {preview && <p class="line-clamp-3">{preview}</p>}

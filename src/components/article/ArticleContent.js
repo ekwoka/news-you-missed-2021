@@ -1,8 +1,10 @@
 import Markdown from 'markdown-to-jsx';
 import { articleMDOptions } from '../../data/utils';
+import useImage from '../../hooks/useImage';
 import RespImage from '../respImage';
 
 export default function ArticleContent({ details, content }) {
+  const [image, ready] = useImage(`${details.title} ${details.keywords}`);
   return (
     <>
       <div class="prose prose-emerald mx-auto block w-full max-w-prose p-4">
@@ -13,11 +15,13 @@ export default function ArticleContent({ details, content }) {
           </a>
         )}
       </div>
-      {details.thumbnail && (
+      {ready && (
         <RespImage
           class="mx-auto mb-8 max-h-[33vh] w-full max-w-screen-xl object-cover"
-          src={details.thumbnail}
-          alt={details.title}
+          src={image.contentUrl}
+          width={image.width}
+          height={image.height}
+          alt={image.title}
         />
       )}
       <Markdown

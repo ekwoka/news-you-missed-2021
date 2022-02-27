@@ -11,7 +11,9 @@ export default function Article(props) {
     );
   }
   if (ready) {
-    const { details, body } = data;
-    return <ArticleContent details={details} content={body} />;
+    const { details, body, preview } = data;
+    return (
+      <ArticleContent details={details} content={body} preview={preview} />
+    );
   }
 }

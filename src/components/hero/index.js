@@ -1,8 +1,10 @@
 import { Link } from 'preact-router/match';
 import navigation from '../../data/navigation';
+import useImage from '../../hooks/useImage';
 import RespImage from '../respImage';
 
 export default function Hero() {
+  const [image, ready] = useImage('cat');
   return (
     <div className="bg-emerald-50">
       <div className="relative overflow-hidden">
@@ -94,11 +96,15 @@ export default function Hero() {
             <div className="w-full flex-1 bg-emerald-900" />
           </div>
           <div className="mx-auto max-w-7xl px-4 sm:px-6">
-            <RespImage
-              className="relative max-h-[33vh] w-full rounded-lg object-cover shadow-lg"
-              src="https://placekitten.com/3000/3000"
-              alt="This is a Kitten"
-            />
+            {ready && (
+              <RespImage
+                className="relative max-h-[33vh] w-full rounded-lg object-cover shadow-lg"
+                src={image.contentUrl}
+                width={image.width}
+                height={image.height}
+                alt={image.title}
+              />
+            )}
           </div>
         </div>
       </div>

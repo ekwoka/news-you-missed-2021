@@ -19,12 +19,7 @@ collections:
           default: 'article',
         }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - {
-          label: 'Featured Image',
-          name: 'thumbnail',
-          widget: 'image',
-          required: false,
-        }
+      - { label: 'Keywords', name: 'keywords', widget: 'string' }
       - {
           label: 'Article Link',
           name: 'url',

@@ -14,6 +14,7 @@ specifiers:
   '@tailwindcss/line-clamp': ^0.3.1
   '@tailwindcss/typography': ^0.5.2
   autoprefixer: ^10.4.2
+  dotenv: ^16.0.0
   enzyme: ^3.11.0
   enzyme-adapter-preact-pure: ^3.4.0
   eslint: ^8.10.0
@@ -22,6 +23,7 @@ specifiers:
   jest-preset-preact: ^4.0.5
   lunr: ^2.3.9
   markdown-to-jsx: ^7.1.6
+  node-fetch: ^3.2.0
   pnpm: ^6.32.1
   postcss: ^8.4.7
   preact: 10.6.6
@@ -33,6 +35,7 @@ specifiers:
   prettier-plugin-tailwindcss: ^0.1.8
   react: npm:preact@^10.6.6
   react-dom: npm:preact@^10.6.6
+  react-intersection-observer: ^8.33.1
   react-svg: ^14.1.12
   sirv-cli: 2.0.2
   tailwindcss: ^3.0.23
@@ -41,10 +44,12 @@ specifiers:
 dependencies:
   '@heroicons/react': 1.0.5_preact@10.6.6
   '@tailwindcss/typography': 0.5.2_tailwindcss@3.0.23
+  dotenv: 16.0.0
   jest: 27.5.1
   jest-preset-preact: 4.0.5_64b1c11746afd3f50af145cfe2028f36
   lunr: 2.3.9
   markdown-to-jsx: 7.1.6_preact@10.6.6
+  node-fetch: 3.2.0
   preact: 10.6.6
   preact-cli-plugin-netlify: 1.6.0
   preact-render-to-string: 5.1.20_preact@10.6.6
@@ -52,6 +57,7 @@ dependencies:
   prettier-plugin-tailwindcss: 0.1.8_prettier@2.5.1
   react: /preact/10.6.6
   react-dom: /preact/10.6.6
+  react-intersection-observer: 8.33.1_preact@10.6.6
   react-svg: 14.1.12_preact@10.6.6+preact@10.6.6
   tailwindcss: 3.0.23_autoprefixer@10.4.2
   typescript: 4.5.5
@@ -3889,6 +3895,11 @@ packages:
       assert-plus: 1.0.0
     dev: true
 
+  /data-uri-to-buffer/4.0.0:
+    resolution: {integrity: sha512-Vr3mLBA8qWmcuschSLAOogKgQ/Jwxulv3RNE4FXnYWRGujzrRWQI4m12fQqRkwX06C0KanhLr4hK+GydchZsaA==}
+    engines: {node: '>= 12'}
+    dev: false
+
   /data-urls/1.1.0:
     resolution: {integrity: sha512-YTWYI9se1P55u58gL5GkQHW4P6VJBJ5iBT+B5a7i2Tjadhv52paJG0qHX4A0OR6/t52odI64KP2YvFpkDOi3eQ==}
     dependencies:
@@ -4205,6 +4216,11 @@ packages:
     dependencies:
       is-obj: 2.0.0
     dev: true
+
+  /dotenv/16.0.0:
+    resolution: {integrity: sha512-qD9WU0MPM4SWLPJy/r2Be+2WgQj8plChsyrCNQzW/0WjvcJQiKQJ9mH3ZgB3fxbUUxgc/11ZJ0Fi5KiimWGz2Q==}
+    engines: {node: '>=12'}
+    dev: false
 
   /duplexer/0.1.2:
     resolution: {integrity: sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==}
@@ -4866,6 +4882,14 @@ packages:
       bser: 2.1.1
     dev: false
 
+  /fetch-blob/3.1.4:
+    resolution: {integrity: sha512-Eq5Xv5+VlSrYWEqKrusxY1C3Hm/hjeAsCGVG3ft7pZahlUAChpGZT/Ms1WmSLnEAisEXszjzu/s+ce6HZB2VHA==}
+    engines: {node: ^12.20 || >= 14.13}
+    dependencies:
+      node-domexception: 1.0.0
+      web-streams-polyfill: 3.2.0
+    dev: false
+
   /figgy-pudding/3.5.2:
     resolution: {integrity: sha512-0btnI/H8f2pavGMN8w40mlSKOfTK2SVJmBfBeVIj3kNw0swwgzyRq0d5TJVOwodFmtvpPeWPN/MCcfuWF0Ezbw==}
     dev: true
@@ -5041,6 +5065,13 @@ packages:
       asynckit: 0.4.0
       combined-stream: 1.0.8
       mime-types: 2.1.34
+    dev: false
+
+  /formdata-polyfill/4.0.10:
+    resolution: {integrity: sha512-buewHzMvYL29jdeQTVILecSaZKnt/RJWjoZCF5OW60Z67/GmSLBkOFM7qh1PI3zFNtJbaZL5eQu1vLfazOwj4g==}
+    engines: {node: '>=12.20.0'}
+    dependencies:
+      fetch-blob: 3.1.4
     dev: false
 
   /forwarded/0.2.0:
@@ -7513,6 +7544,11 @@ packages:
       lower-case: 1.1.4
     dev: true
 
+  /node-domexception/1.0.0:
+    resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
+    engines: {node: '>=10.5.0'}
+    dev: false
+
   /node-fetch/2.6.7:
     resolution: {integrity: sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==}
     engines: {node: 4.x || >=6.0.0}
@@ -7523,6 +7559,15 @@ packages:
         optional: true
     dependencies:
       whatwg-url: 5.0.0
+
+  /node-fetch/3.2.0:
+    resolution: {integrity: sha512-8xeimMwMItMw8hRrOl3C9/xzU49HV/yE6ORew/l+dxWimO5A4Ra8ld2rerlJvc/O7et5Z1zrWsPX43v1QBjCxw==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dependencies:
+      data-uri-to-buffer: 4.0.0
+      fetch-blob: 3.1.4
+      formdata-polyfill: 4.0.10
+    dev: false
 
   /node-forge/1.2.1:
     resolution: {integrity: sha512-Fcvtbb+zBcZXbTTVwqGA5W+MKBj56UjVRevvchv5XrcyXbmNdesfZL37nlcWOfpgHhgmxApw3tQbTr4CqNmX4w==}
@@ -8851,6 +8896,14 @@ packages:
       minimist: 1.2.5
       strip-json-comments: 2.0.1
     dev: true
+
+  /react-intersection-observer/8.33.1_preact@10.6.6:
+    resolution: {integrity: sha512-3v+qaJvp3D1MlGHyM+KISVg/CMhPiOlO6FgPHcluqHkx4YFCLuyXNlQ/LE6UkbODXlQcLOppfX6UMxCEkUhDLw==}
+    peerDependencies:
+      react: ^15.0.0 || ^16.0.0 || ^17.0.0|| ^18.0.0
+    dependencies:
+      react: /preact/10.6.6
+    dev: false
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -10614,6 +10667,11 @@ packages:
     dependencies:
       defaults: 1.0.3
     dev: true
+
+  /web-streams-polyfill/3.2.0:
+    resolution: {integrity: sha512-EqPmREeOzttaLRm5HS7io98goBgZ7IVz79aDvqjD0kYXLtFZTc0T/U6wHTPKyIjb+MdN7DFIIX6hgdBEpWmfPA==}
+    engines: {node: '>= 8'}
+    dev: false
 
   /webidl-conversions/3.0.1:
     resolution: {integrity: sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=}

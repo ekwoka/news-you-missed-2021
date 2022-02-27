@@ -9,6 +9,7 @@ function getDetails(data) {
     obj[key] = value;
     return obj;
   }, {});
+  details.keywords = details.keywords || '';
   return details;
 }
 
