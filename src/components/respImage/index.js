@@ -7,7 +7,12 @@ const widths = [
   3024,
 ];
 
-export default function RespImage({ src, maxSize, autoSize, ...props }) {
+export default function RespImage({
+  src,
+  maxSize = Infinity,
+  width,
+  ...props
+}) {
   const imgRef = useRef();
 
   useLayoutEffect(() => {
@@ -18,7 +23,7 @@ export default function RespImage({ src, maxSize, autoSize, ...props }) {
   if (!imgBase.includes('{width}')) props.src = src;
 
   if (imgBase.includes('{width}')) {
-    const thisWidths = maxSize ? widths.filter((w) => w <= maxSize) : widths;
+    const thisWidths = widths.filter((w) => w <= Math.min(maxSize, width));
     props.src = imgBase.replaceAll('{width}', thisWidths[1] || thisWidths[0]);
     props.srcset = thisWidths
       .map((w) => `${imgBase.replaceAll('{width}', w)} ${w}w`)
@@ -26,9 +31,9 @@ export default function RespImage({ src, maxSize, autoSize, ...props }) {
   }
 
   props.loading = props.loading || 'lazy';
-  props.sizes = props.lodding === 'eager' ? '75vw' : '33vw';
+  props.sizes = props.loading === 'eager' ? '75vw' : '33vw';
 
-  return <img ref={imgRef} {...props} />;
+  return <img ref={imgRef} {...props} width={width} />;
 }
 
 function getCloudinaryUrl(value) {

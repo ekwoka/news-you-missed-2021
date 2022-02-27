@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  img,
+  input[type='image'],
+  video,
+  embed,
+  iframe,
+  marquee,
+  object,
+  table {
+    aspect-ratio: attr(width) / attr(height);
+  }
+}
+
 @layer components {
   .map-svg svg {
     transition: 2s;
