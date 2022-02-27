@@ -8,3 +8,4 @@ size-plugin.json
 *.vtt
 .obsidian
 .npmrc
+.env.json
