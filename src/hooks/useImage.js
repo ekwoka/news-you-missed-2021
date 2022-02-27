@@ -11,7 +11,7 @@ Challenges: 3 request per second to API, don't fetch uneeded image data.
 
 // Initialize Cache as Proxy to localStorage
 
-const cache = getStorageProxy('image-chache');
+const cache = getStorageProxy('image-cache');
 
 // custom hook useImage, handles intersection observer to the image if lazyloading is neaded, and checks for image in cache, otherwise adds it to request queue
 
@@ -29,7 +29,7 @@ export default function useImage(query, delay = false) {
     } else {
       addToQueue(q, setImage, setReady);
     }
-  }, [query, inView, delay]);
+  }, [query, inView, delay, image]);
 
   return [image, ready, ref];
 }
@@ -38,13 +38,10 @@ export default function useImage(query, delay = false) {
 
 async function getImage(q) {
   if (!q) return;
-  if (cache[q]) {
-    return cache[q];
-  } else {
-    const image = await fetchImage(q);
-    if (image.contentUrl) cache[q] = image;
-    return image;
-  }
+  if (cache[q]) return cache[q];
+  const image = await fetchImage(q);
+  if (image.contentUrl) cache[q] = image;
+  return image;
 }
 
 async function fetchImage(q) {
