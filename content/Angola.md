@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Angola
+keywords: diamon mine kasai river heavy metals
 ---
 
 Downstream effects from an Angolan diamond mine were catastrophically felt in a toxic spill that sickened more than 1 million people, killed 12, and decimated fish and wildlife.

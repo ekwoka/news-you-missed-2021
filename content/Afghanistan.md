@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Afghanistan
+keywords: female football athletes london escape
 ---
 
 One hundred and thirty young female footballers and their families from Afghanistan can finally take a deep breath.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Albania
+keywords: afghan refugees
 ---
 
 One European country has proved especially welcoming to Afghan refugees, and it’s one of the continent’s poorest.
