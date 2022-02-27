@@ -21,8 +21,8 @@ export default function useImage(query, delay = false) {
   const [image, setImage] = useState(null);
 
   useEffect(() => {
-    if ((delay && !inView) || image) return;
-    const q = query.replace(/[^a-zA-Z0-9 ]/g, '');
+    if (delay && !inView) return;
+    const q = query.replaceAll(/[^a-zA-Z0-9 ]/g, '');
     if (cache[q]) {
       setImage(cache[q]);
       setReady(true);
@@ -112,14 +112,14 @@ function getStorageProxy(prefix) {
     {
       set: (obj, prop, value) => {
         localStorage.setItem(
-          `${prefix}.${prop.replace(' ', '-')}`,
+          `${prefix}.${prop.replaceAll(' ', '-')}`,
           JSON.stringify(value)
         );
         return true;
       },
       get: (obj, prop) => {
         return JSON.parse(
-          localStorage.getItem(`${prefix}.${prop.replace(' ', '-')}`)
+          localStorage.getItem(`${prefix}.${prop.replaceAll(' ', '-')}`)
         );
       },
     }
