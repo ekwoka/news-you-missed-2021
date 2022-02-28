@@ -22,11 +22,12 @@ export const handler = async ({ queryStringParameters }) => {
         'Ocp-Apim-Subscription-Key': process.env.AZURE_KEY,
       },
     });
-    if (!response.ok) throw response;
+    if (!response.ok) throw response.statusText;
     const { value } = await response.json();
     console.log('Successfully fetched image:', params.q);
     return formattedReturn(200, value[0] || {});
   } catch (e) {
+    console.log('Error fetching image:', e);
     return formattedReturn(418, { error: e });
   }
 };
