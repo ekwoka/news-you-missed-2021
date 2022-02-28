@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Ethiopia
+keywords: tedros adhanom tigray
 ---
 
 The stores of two priminent headline-makers collided this year when Tedros Adhanom, director-general of the World Health Organization, spoke on the first situation in north Ethiopia.

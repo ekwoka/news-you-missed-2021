@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Azerbaijan
+keywords: caspian sea mud volcano
 ---
 
 An apocalyptic scene unfolded just off the coast of Azerbaijan as a column of fire blasted out of the Caspian Sea.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Niger
+keywords: mohamed bazoum
 ---
 
 In what has been a tough year for a myriad of reasons, Niger made history with its first-ever peaceful, democratic transition of power.

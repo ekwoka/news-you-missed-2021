@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Finland
+keywords: happiest country
 ---
 
 Finland has a lot going for it, including being named the happiest country in the world for the fourth consecutive year.

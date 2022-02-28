@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Mozambique
+keywords: elephants tuskless
 ---
 
 Researchers have found that elephants have behung ditching their tusks in the name of survival.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Venezuela
+keywords: migrants humanitarian crisis
 ---
 
 Venezuelans have been fleeing their country in one of the world’s largest human migrations, and one-third of them head to neighboring Colombia.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Canada
+keywords: lobster toronto aquarium
 ---
 
 This is a story about the good guy winning, but this time, it’s a lobster.

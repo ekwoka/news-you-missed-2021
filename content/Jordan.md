@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Jordan
+keywords: king abdullah plot
 ---
 
 Also threatening was two mens’ plot to unseat Jordan’s King Abdullah, a crime for which they were sentenced to 15 years in prison.

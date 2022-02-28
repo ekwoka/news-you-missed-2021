@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Republic of the Congo
+keywords: rumba unesco
 ---
 
 Break out those dancing shoes, because the rumba may officially be a part of worldwide intangible cultural heritage.

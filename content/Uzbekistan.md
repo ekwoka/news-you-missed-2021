@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Uzbekistan
+keywords: gymnast olympics oksana chusovitina
 ---
 
 More than doubling the age of most of her competitors, a 46-year-old gymnast representing Uzbekistan took her final bow at the Olympics in Tokyo this summer.

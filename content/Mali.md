@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Mali
+keywords: nonuplets
 ---
 
 Nonuplets is the crossword-worthy term that reached household-level parlance across Mali in 2021.

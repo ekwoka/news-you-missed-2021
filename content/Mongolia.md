@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Mongolia
+keywords: archeologists karakorum
 ---
 
 Another unearthing took place in Mongolia, where archeologists were able to use a new technology to look below ground and map the ancient city of Karakorum, the capital of the Mongolian Empire established by Genghis Kahn in the 1200s.

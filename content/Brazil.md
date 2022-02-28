@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Brazil
+keywords: smaller birds
 ---
 
 Birds are adapting to changing material living conditions.

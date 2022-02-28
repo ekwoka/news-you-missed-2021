@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Cyprus
+keywords: anniversary erdogan
 ---
 
 One internationally recognized state, one defiant self-identifying state, two UK military bases, and one UN buffer zone to keep the peace hint at Cyprus' geopolitical complexity.

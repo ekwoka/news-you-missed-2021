@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Bahrain
+keywords: sport city
 ---
 
 Bahrain is keen on finding a bit more room, too.

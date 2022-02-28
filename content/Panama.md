@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Panama
+keywords: migrants darien gap
 ---
 
 It’s been a record-breaking year for Panama immigration officials as a whopping 70,000 migrants from around the world have passed through the Darien Gap and into the country.

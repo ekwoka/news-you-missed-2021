@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Djibouti
+keywords: protestors blocked rail line
 ---
 
 The violence that’s gripped Ethiopia for the past year has done no favors for East African neighbors either––see the tiny coastal nation of Djibouti.

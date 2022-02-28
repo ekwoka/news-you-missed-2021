@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Mexico
+keywords: columbus statue
 ---
 
 After much debate, it was announced that Mexico’s 150-year-old Columbus statue was to be replaced by a statue of an indigenous woman.

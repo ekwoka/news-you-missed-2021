@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Iraq
+keywords: samo jassem al-ajuz
 ---
 
 In the ongoing fight against ISIS, officials in Iraq declared a moderate victory with the capture of the Islamic State’s finance minister, Sami Jassem al-Ajuz.

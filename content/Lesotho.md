@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Lesotho
+keywords: afriski mountain resort
 ---
 
 It’s been a tough few years for the ski industry, and Lesotho’s Afriski Mountain Resort proved that while unique in terms of its status as one of the two resorts in southern Africa, it wasn’t an exception to the struggles.

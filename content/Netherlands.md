@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Netherlands
+keywords: livestock poop
 ---
 
 Officials in the Netherlands unveiled a plan to reduce the country’s livestock by about 1/3 over the next 13 years.

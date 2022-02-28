@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Cameroon
+keywords: transgender arrested
 ---
 
 Charges were laid against two transgender women who were simply having dinner in Cameroon when they were arrested for alleged homosexuality.

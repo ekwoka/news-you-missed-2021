@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Vanuatu
+keywords: citizenship by investment
 ---
 
 Vanuatu is a remote Pacific island with just 300,000 residents.

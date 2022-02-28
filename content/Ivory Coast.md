@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Ivory Coast
+keywords: cocoa illegal
 ---
 
 In the Ivory Coast, stamping out illegal cocoa grow operations has proved next to impossible.

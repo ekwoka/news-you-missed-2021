@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Denmark
+keywords: plant based foods
 ---
 
 We’ve talked a lot about ways to create green energy.

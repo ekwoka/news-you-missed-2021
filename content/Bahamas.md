@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Bahamas
+keywords: cubans washed up rescued
 ---
 
 At the other end of the Caribbean, three Cubans survived 33 days on a barren Bahamian island before being rescued by the US Coast Guard.

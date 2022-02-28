@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Eritrea
+keywords: citizenship italian
 ---
 
 Over 300 Eritreans born during Italy's rule have demanded Italian citizenship.

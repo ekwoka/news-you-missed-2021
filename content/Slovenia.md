@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Slovenia
+keywords: janez jansa art
 ---
 
 The government in Slovenia is running an alleged crusade against culture, with Prime Minister Janez Jansa replacing the heads of several arts organizations in what some are calling a shift to more conservative approaches.

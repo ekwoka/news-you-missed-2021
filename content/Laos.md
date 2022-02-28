@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Laos
+keywords: meth largest drug seizure
 ---
 
 A plot to smuggle 55 million methamphetamine tablets and more than 1.5 tons of crystal meth disguised in beer crates was thwarted by police in Laos, resulting in the largest single drug seizure in Asia.

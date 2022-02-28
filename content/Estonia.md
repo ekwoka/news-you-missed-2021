@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Estonia
+keywords: scarecrow seas
 ---
 
 A scarecrow of the seas may help to save the lives of thousands of seabirds each year thanks to researchers in Estonia who helped develop a buoy with googly eyes.

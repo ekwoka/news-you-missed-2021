@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Cape Verde
+keywords: sea turtles
 ---
 
 Native baby sea turtle numbers on the 10-island nation of Cape Verde are booming, in a rabbit-like way.

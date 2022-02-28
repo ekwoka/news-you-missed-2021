@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Brunei
+keywords: Hjh Noriani
 ---
 
 The people of Brunei are hoping for more sage decision-making from the new CEO of the nation’s largest financial institution, Bank Islam Brunei Darussalam.

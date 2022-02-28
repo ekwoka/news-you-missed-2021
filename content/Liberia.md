@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Liberia
+keywords: emmanual tuloe
 ---
 
 Fifty thousand dollars goes a long way.

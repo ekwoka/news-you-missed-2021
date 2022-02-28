@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Serbia
+keywords: christiano ronaldo atrophy
 ---
 
 Cristiano Ronaldo couldn’t wait to get home after a controversial call in Serbia cost him and his country important World Cup qualifying points.

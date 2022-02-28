@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Tajikistan
+keywords: migrant labor
 ---
 
 When it comes to finding fodder for Central Asian geopolitical cocktail talk, here’s a fun fact: Tajikistan’s primary export is migrant labor.

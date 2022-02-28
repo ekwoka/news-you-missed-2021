@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Senegal
+keywords: maram kaire asteroid
 ---
 
 2021 was a big year for African astronomy––especially for the Senegalese scientist Maram Kaire, as the International Astronomical Union retitled the less-than-personable asteroid 35462 to “MaramKaire,” no spaces.

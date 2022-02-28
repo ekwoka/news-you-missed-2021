@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Libya
+keywords: artificial intelligence
 ---
 
 In Libya, there’s some frightening news on the artificial intelligence front.

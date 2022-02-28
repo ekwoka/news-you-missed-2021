@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Lebanon
+keywords: harbor blast
 ---
 
 Also in repair are more than a handful of the 130 precious, historical artifacts that were destroyed in the harbor blast in Lebanon that killed 200 people.

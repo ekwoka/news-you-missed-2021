@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Bhutan
+keywords: chinese village dispute
 ---
 
 China continues to expand its presence around the globe, and in Bhutan this hasn’t been subtle.

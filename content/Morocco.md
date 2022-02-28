@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Morocco
+keywords: stone tools archeologist
 ---
 
 There’s nothing like the discovery of 1.3 million-year-old stone tools to make this point in time seem, well, short.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Saint Vincent and the Grenadines
+keywords: petite mustique human skull
 ---
 
 Back underground we go, this time to Petite Mustique, which is part of Saint Vincent and the Grenadines, where a human skull was unearthed on this remote, rugged island in 2003.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Croatia
+keywords: prosek prosecco
 ---
 
 Prošek and Prosecco are two different types of wine with two different names.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: South Korea
+keywords: lg mobile
 ---
 
 Speaking of smartphones, it may have gone unnoticed in your Apple-happy world, but South Korean manufacturer LG announced its departure from the phone market.

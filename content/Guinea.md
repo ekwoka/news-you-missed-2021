@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Guinea
+keywords: ebola outbreak
 ---
 
 Researchers suspect that this year's Ebola outbreak of 20-plus probably cases in Guinea was triggered by a survivor of the earlier outbreak, that ended in 2016.

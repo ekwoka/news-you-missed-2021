@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Dominica
+keywords: best country for second citizenship
 ---
 
 Islands in the Caribbean continue to bet big on tourism, especially countries like Dominica which offers Citizenship-by-Investment through properties like the six-star resort of Secret Bay.

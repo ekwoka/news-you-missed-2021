@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Honduras
+keywords: gdp growth
 ---
 
 That pandemic coffee habit may be helping boost Honduras’ economy, according to recent economic reports.

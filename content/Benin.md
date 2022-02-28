@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Benin
+keywords: abortion
 ---
 
 In Benin, a law passed that drastically expands access to abortion and largely puts the decision in women’s hands.

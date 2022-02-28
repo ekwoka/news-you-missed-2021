@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Russia
+keywords: face pay
 ---
 
 State overreach is the fear in Russia, as the Moscow metro has implemented a new method of payment at over 240 stations called Face Pay.

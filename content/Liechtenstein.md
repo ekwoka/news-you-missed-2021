@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Liechtenstein
+keywords: gambling
 ---
 
 Low government limitations have led to a hot streak of gambling development in Liechtenstein, one of the world’s smallest countries, now home to five casinos.

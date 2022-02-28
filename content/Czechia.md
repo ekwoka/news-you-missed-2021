@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Czechia
+keywords: peter kellner death
 ---
 
 One of Europe’s wealthiest people and the Czech Republic’s richest man, Peter Kellner, was tragically killed in a helicopter crash while heli-skiing in Alaska, along with four additional passengers.

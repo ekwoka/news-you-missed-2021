@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Paraguay
+keywords: parana river deforestation
 ---
 
 Something else that’s stopping is the Parana River.

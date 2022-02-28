@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Turkmenistan
+keywords: alabai holiday
 ---
 
 Last year the president of Turkmenistan erected a gilded statue of a beloved breed of dog, the Alabai.

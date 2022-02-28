@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Austria
+keywords: vienna onlyfans sculptures
 ---
 
 Austrian tourism officials want to encourage viewing of the country’s nude sculptures and paintings that pepper museums, but social media platforms’ censorship policies have made their promotion difficult.

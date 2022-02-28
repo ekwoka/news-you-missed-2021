@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Nauru
+keywords: offshore processing australia
 ---
 
 2021 wasn't a year for Nauru to rethink its international agreements but a chance to double down.

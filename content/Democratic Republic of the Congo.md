@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Democratic Republic of the Congo
+keywords: african artifacts belgium
 ---
 
 Finding middle-ground built on trust and respect has shaped an important development in the DRC as calls for the repatriation of artifacts by activists and officials made headway in 2021.

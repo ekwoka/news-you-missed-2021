@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Bolivia
+keywords: la paz ultraviolet
 ---
 
 Atmospheric conditions also made headlines in Bolivia, where UV radiation levels in La Paz hit 21, and that’s on a scale that typically tops out at 20.

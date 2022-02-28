@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Egypt
+keywords: egyptian mummy child
 ---
 
 Polish researchers discovered a first: an Egyptian mummy with child.

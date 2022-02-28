@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Madagascar
+keywords: chameleon smallest
 ---
 
 Chameleons, by their very nature, are hard to spot.

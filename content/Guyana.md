@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Guyana
+keywords: lawsuit oil exploration
 ---
 
 Two residents in Guyana are not staying quiet about protecting the planet, something they argue is a fundamental right to humanity’s sustainability.

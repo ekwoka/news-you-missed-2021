@@ -1,6 +1,7 @@
 ---
 layout: article
 title: South Africa
+keywords: succulents conophytum
 ---
 
 It’s banned for poachers to remove succulents from the desert in South Africa, but that hasn’t stopped it from being an explosive problem in a country that’s home to one-third of the world’s succulent species.

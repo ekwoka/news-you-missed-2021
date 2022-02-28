@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Poland
+keywords: coal power
 ---
 
 A sputtering economy, many feel, would be the result should Poland pivot away from coal.

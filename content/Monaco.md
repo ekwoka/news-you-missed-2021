@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Monaco
+keywords: venturi polar
 ---
 
 Venturi, an innovative auto company and Formula E team from Monaco, announced its plan to launch its electric polar exploration vehicle in Antarctica.

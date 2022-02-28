@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Kyrgyzstan
+keywords: sadyr japarov
 ---
 
 In Kyrgyzstan, Central Asia’s only democracy, just over one-third of the population turned out in a snap election that put populist politician and convicted kidnapper Sadyr Japarov into power.

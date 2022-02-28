@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Solomon Islands
+keywords: unexploded bombs world war
 ---
 
 A Solomon Islands man digging in his backyard to install a septic system struck something hard, but this was the opposite of treasure.

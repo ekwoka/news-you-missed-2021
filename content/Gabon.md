@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Gabon
+keywords: elephants
 ---
 
 There’s some positive news about elephants coming out of Gabon, where new research shows the population of forest elephants, a cousin to the savanna-dwelling pachyderms, seem to be doing better than expected.

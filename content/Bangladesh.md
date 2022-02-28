@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Bangladesh
+keywords: safety agreements
 ---
 
 Garment workers in Bangladesh are more protected after an agreement was signed by some 200 international fashion companies that includes legally binding safety commitments, independent inspections at the factories, and contributions for safety training and factory improvements.

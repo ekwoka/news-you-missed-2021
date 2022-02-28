@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Rwanda
+keywords: Dieudonne Niyonsenga youtube
 ---
 
 In Rwanda, the crackdown on dissidents under President Paul Kagame’s government has extended to YouTube creators.

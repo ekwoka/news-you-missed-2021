@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Cuba
+keywords: protest
 ---
 
 Cuban officials wouldn’t be fooled twice this year.

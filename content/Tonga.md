@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Tonga
+keywords: meth epidemic
 ---
 
 The island-nation of Tonga managed to largely avoid the global pandemic, but it’s dealing with its own epidemic now, as methamphetamine use has become pervasive and very problematic in the country of 100,000.

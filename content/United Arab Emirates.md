@@ -1,6 +1,7 @@
 ---
 layout: article
-title: United arab Emirates
+title: United Arab Emirates
+keywords: free latifa
 ---
 
 2021 marked the end of the Free Latifa campaign, as the movement hatched three years ago finally saw its vision come to fruition.

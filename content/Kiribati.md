@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Kiribati
+keywords: fiji displaced
 ---
 
 Another island nation concerned for its future is Kiribati, where six years ago, the government starred in its own version of “House Hunters” and purchased some 8.5 square miles, or 22 square kilometers, of land on Fiji to make sure its potentially displaced residents had somewhere to go as sea levels rise.

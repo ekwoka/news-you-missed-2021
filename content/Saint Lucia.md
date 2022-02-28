@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Saint Lucia
+keywords: geothermal
 ---
 
 What happens underground is of interest in St. Lucia, where the Caribbean nation is taking the first steps towards harnessing geothermal energy.

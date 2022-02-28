@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Palau
+keywords: pacific islands forum
 ---
 
 The result of a vote on the new secretary general for the Pacific Islands Forum was the last straw for the tiny Micronesian country of Palau who announced they’d be leaving the organization.

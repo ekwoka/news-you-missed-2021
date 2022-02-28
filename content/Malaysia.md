@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Malaysia
+keywords: lgbt
 ---
 
 A substantial legal ruling was recorded this year in Malaysia as the country’s highest court ruled that the Islamic provision that banned same sex acts was unconstitutional.

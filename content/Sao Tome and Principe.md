@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Sao Tome and Principe
+keywords: fossil fuels ocean thermal
 ---
 
 In an effort to reduce its dependence on fossil fuels, Sao Tome and Principe made an innovative announcement involving deepwater platforms, but not the oil kind.

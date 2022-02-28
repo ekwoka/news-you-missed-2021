@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Nicaragua
+keywords: extraterrestrial space affairs
 ---
 
 The situation in Nicaragua right now is unequivocally bad, and it wasn’t much better in early 2021 when President Daniel Ortega opted to shoot for the moon, even though the nation is mired in social and economic misery.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Norway
+keywords: meteor
 ---
 
 In Norway, a large meteor lit up the summer night sky for five to six seconds before, in all likelihood, crashing into a densely wooded area about 40 miles, or 60 kilometers, west of the country’s capital.

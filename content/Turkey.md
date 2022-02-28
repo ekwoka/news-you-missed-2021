@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Turkey
+keywords: space program monolith
 ---
 
 Following the appearance of mysterious metallic monoliths across the American West and in Romania, a similar structure appeared in southwest Turkey.

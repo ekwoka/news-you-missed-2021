@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Barbados
+keywords: rihanna national hero
 ---
 
 In the very same year that Barbados ended symbolic ties with the Queen of England and became a republic, the nation’s most famous export, Rihanna, became a national hero.

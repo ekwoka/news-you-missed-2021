@@ -1,6 +1,7 @@
 ---
 layout: article
 title: United States of America
+keywords: allyship dictionary
 ---
 
 2021 wasn’t all spying, censorship, and general contention, there were positive developments too: United States-based dictionary.com named “allyship” its word of the year.

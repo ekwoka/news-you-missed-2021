@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Ecuador
+keywords: Darwin's Arch
 ---
 
 In Ecuador’s most famous islands, Darwin’s Arch died of natural causes.

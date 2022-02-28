@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Suriname
+keywords: astrid roemer
 ---
 
 Distancing themselves is something that a Dutch organization is trying to do with Astrid Roemer, a poet from the former Dutch colony of Suriname, after it awarded her with a prestigious literary prize earlier this year.

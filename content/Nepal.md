@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Nepal
+keywords: mout everest false
 ---
 
 Nepal counts how many people reach the top of Mount Everest.

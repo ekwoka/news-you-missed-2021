@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Armenia
+keywords: armenian genocide biden
 ---
 
 Another milestone was reached this year when Joe Biden became the first US President to acknowledge that the Armenian Genocide was in fact a genocide.

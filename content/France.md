@@ -1,6 +1,7 @@
 ---
 layout: article
 title: France
+keywords: fishing licenses
 ---
 
 On the coast, France and the United Kingdom finally settled some post-Brexit bickering over fishing.

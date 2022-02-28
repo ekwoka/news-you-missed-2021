@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Burkina Faso
+keywords: iron bibi
 ---
 
 Inspiration takes many forms.

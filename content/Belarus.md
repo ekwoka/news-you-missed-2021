@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Belarus
+keywords: krystsina tsimanouskaya polish embassy
 ---
 
 Bucking tradition at the Tokyo Olympics, one sprinter, rather than running for her country, ran away from it.

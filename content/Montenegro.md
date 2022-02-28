@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Montenegro
+keywords: highway cost
 ---
 
 In the mountainous eastern European country, construction crews put the finishing touches on a state-of-the-art highway that cuts through rugged Montenegro.

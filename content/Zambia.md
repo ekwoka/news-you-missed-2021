@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Zambia
+keywords: fruit bats
 ---
 
 Imprisonment in an authoritarian country is one person’s nightmare, while 10 million fruit bats descending on a condensed swamp area might sound like another’s.

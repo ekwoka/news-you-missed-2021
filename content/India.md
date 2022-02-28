@@ -1,6 +1,7 @@
 ---
 layout: article
 title: India
+keywords: uttar pradesh
 ---
 
 If two’s a party and three’s a crowd, then India is taking note.

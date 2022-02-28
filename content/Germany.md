@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Germany
+keywords: criminal burglary 2012 dna
 ---
 
 The second time was not as successful for a criminal in Germany, whose first crime involved a burglary in 2012.

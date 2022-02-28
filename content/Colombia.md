@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Colombia
+keywords: viche heritage
 ---
 
 A decision made by Colombia’s congress gave Viche, often referred to as “African-Colombian Moonshine,” its well-deserved moment in the sun.

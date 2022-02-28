@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Lithuania
+keywords: xiaomi censorship
 ---
 
 Conspiratorial might seem like a good way to describe Lithuania’s defense ministry calling for citizens to throw their Chinese-made cell phones away.

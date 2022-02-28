@@ -1,6 +1,7 @@
 ---
 layout: article
 title: The Philippines
+keywords: rodrigo duterte dara
 ---
 
 Something that’s not going to last forever is Filipino President Rodrigo Duterte, who is constitutionally barred from seeking another six-year term.

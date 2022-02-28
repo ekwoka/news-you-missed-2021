@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Chad
+keywords: football association FIFA
 ---
 
 2021 saw both the suspension and reinstatement of the Chadian Football Association by the hands of FIFA.

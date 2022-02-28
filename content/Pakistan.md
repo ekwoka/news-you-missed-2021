@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Pakistan
+keywords: child charged blasphemy
 ---
 
 How young is too young to charge someone with a crime? Pakistan faced down this very question when they charged an 8-year-old of blasphemy when the Hindu child peed in an Islamic school library.

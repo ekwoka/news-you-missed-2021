@@ -1,6 +1,7 @@
 ---
 layout: article
 title: North Korea
+keywords: hotline seoul
 ---
 
 The Hermit Kingdom countered it natural disposition when it decided to reopen lines of communication with South Korea via the hotline that directly connect Seoul and Pyongyang.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Sudan
+keywords: democracy omar al bashir
 ---
 
 Sudan’s progress toward democratic rule hit a major speed bump this October when the military seized power.

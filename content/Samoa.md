@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Samoa
+keywords: naomi mataafa
 ---
 
 Traditionally, the transfer of power is supposed to be peaceful and seamless.

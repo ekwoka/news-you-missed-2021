@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Saudi Arabia
+keywords: newcastle united golf saudi
 ---
 
 From sport cities to sports washing, it was a big year for professional athletics in Saudi Arabia.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Malawi
+keywords: protestors data prices
 ---
 
 Across several Malawian cities, protesters took to the street bonded by the same plight: data prices are too darn high.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Iceland
+keywords: direct air capture co2
 ---
 
 Iceland started operating the world’s first direct air capture technology, which turns CO2 into rock.

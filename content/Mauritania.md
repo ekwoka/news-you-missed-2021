@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Mauritania
+keywords: water shortage
 ---
 
 In a country that’s 90% Sahara, with only one permanent river, water’s hard to come by.

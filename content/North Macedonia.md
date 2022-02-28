@@ -1,6 +1,7 @@
 ---
 layout: article
 title: North Macedonia
+keywords: anniversary independence
 ---
 
 While other parts of former Yugoslavia threatened to fall apart, North Macedonia celebrated 2021 as the year marked the 30th anniversary of its peacefully-established independence.

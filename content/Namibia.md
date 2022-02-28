@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Namibia
+keywords: angela merkel aid
 ---
 
 In the early 1900s, Namibia was known as German South West Africa, and Germany is still dealing with its dark history there, which included troops that killed, tortured, and forced tens of thousands of native peoples into the desert to starve.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Togo
+keywords: digital payout
 ---
 
 Bureaucrats in Togo took the difficult task of distributing pandemic-related relief funds head on this year by developing a remarkably efficient digital payout platform.

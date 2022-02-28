@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Qatar
+keywords: rolls royce partnership
 ---
 
 In a country that’s been in the headlines for all the wrong reasons the past few years has emerged a more positive story.

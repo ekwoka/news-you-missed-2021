@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Syria
+keywords: al hawl refugee camp
 ---
 
 Technology seems to be a storyline, and this is clearly the case for ISIS-affiliated women held at the Al-Hawl refugee camp in Syria, where they are marrying men they meet online in order to receive income and the slim chance of eventual repatriation.

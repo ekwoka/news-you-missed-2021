@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Uganda
+keywords: pipeline murchison national park
 ---
 
 Expressing dissent with Uganda’s 900 mile, 1,500 kilometer oil pipeline project is becoming costly.

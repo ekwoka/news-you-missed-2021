@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Sri Lanka
+keywords: zoo baby
 ---
 
 If nothing else good came of it, the pandemic offered zoo animals a well-earned rest.

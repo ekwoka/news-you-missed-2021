@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Nigeria
+keywords: shell pipeline court case
 ---
 
 It’s been 15 years since Shell’s Nigerian subsidiary’s pipelines poisoned the farmlands of the villages of Goi and Oruma, and 13 years since the case went to court.

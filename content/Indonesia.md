@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Indonesia
+keywords: biak elon musk
 ---
 
 To the south, the Indonesian island of Biak is becoming an unexpected player in Elon Musk’s world.

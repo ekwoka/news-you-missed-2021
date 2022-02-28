@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Belgium
+keywords: farmer border stone
 ---
 
 Expansion is something that a Belgian farmer accidentally did when he moved a several-hundred pound stone seven feet into France.

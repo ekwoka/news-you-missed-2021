@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Chile
+keywords: blue whale
 ---
 
 The world’s largest mammal, the blue whale, only feeds in a few specific regions, one of which is off the coast of Chilean Patagonia.

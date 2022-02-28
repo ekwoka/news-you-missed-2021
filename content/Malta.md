@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Malta
+keywords: financial action task force
 ---
 
 Another sort of deterrent is the addition of Malta to an international greylist kept by Financial Action Task Force, a watchdog organization meant to monitor money laundering and terrorism funding.

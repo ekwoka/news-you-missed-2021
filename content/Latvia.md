@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Latvia
+keywords: plague body
 ---
 
 A finding in the remains of a different sort of nomad in Latvia cast doubt on previous theories as to the dramatic decline of stone-age peoples across western Europe 5,000 years ago.

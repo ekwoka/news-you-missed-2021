@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Burundi
+keywords: ruzizi river rail lines
 ---
 
 In July, the heads of state from Burundi and the Democratic Republic of the Congo signed cooperative agreements aimed to foster trade, stamp out rebels, and literally bridge the Ruzizi River-sized gap between the neighboring countries.

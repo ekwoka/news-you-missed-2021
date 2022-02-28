@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Botswana
+keywords: largest diamond
 ---
 
 Finds that will happily be sent overseas include two of the world’s largest diamonds, unearthed this year in Botswana.

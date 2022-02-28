@@ -1,6 +1,7 @@
 ---
 layout: article
 title: The Vatican
+keywords: ice cream prisoner
 ---
 
 The Vatican's most famous resident donated 15,000 ice-creams to local prisoners during an unpleasant hot snap in a summer that set heat records across the Italian peninsula.

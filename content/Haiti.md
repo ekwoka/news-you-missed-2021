@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Haiti
+keywords: general elections postponed
 ---
 
 Democracy is in trouble in Haiti.

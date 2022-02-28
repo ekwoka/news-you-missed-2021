@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Comoros
+keywords: national soccer team leage of nations
 ---
 
 It’s been a momentous year for sports fans on the island of Comoros, as the nation of under a million was ground zero for a history-making run by the national soccer team.

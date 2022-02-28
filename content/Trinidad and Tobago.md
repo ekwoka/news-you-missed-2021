@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Trinidad and Tobago
+keywords: michael jordan rum brand
 ---
 
 Michael B. Jordan understands firsthand the baggage that comes with a name.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Maldives
+keywords: climate change
 ---
 
 The Maldives have the unenvious position of exemplifying climate change’s already dire effects on low-lying nations, where 30% of the country’s annual government budget is being spent on adapting to climate change.

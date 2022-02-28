@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Grenada
+keywords: underwater sculpture park
 ---
 
 Grenada announced the completion of a renovation to its underwater sculpture park.

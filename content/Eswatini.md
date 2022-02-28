@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Eswatini
+keywords: King Mswati III
 ---
 
 For more than 35 years, Eswatini’s King Mswati III has ruled as absolute monarch and flaunted a lavish, luxurious lifestyle.

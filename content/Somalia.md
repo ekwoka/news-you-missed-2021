@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Somalia
+keywords: nationa theatre
 ---
 
 Somalia got its first taste of the silver screen in 30 years, when the National Theatre of Somalia reopened for a screening featuing two short films by a homegrown director.

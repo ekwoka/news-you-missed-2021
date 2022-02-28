@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Marshall Islands
+keywords: arizona human trafficking
 ---
 
 An Arizona man who conducted a years-long human trafficking ring selling babies from the Marshall Island to American parents was sentenced to six years in prison and forced to pay hundreds of thousands in restitution charges.

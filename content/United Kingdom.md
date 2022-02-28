@@ -1,6 +1,7 @@
 ---
 layout: article
 title: United Kingdom
+keywords: tidal turbine dundee
 ---
 
 To the north, the United Kingdom is rapidly trying to make up for centuries of contributing to climate change.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Romania
+keywords: prine emanuel liechtenstein bear
 ---
 
 Trophy hunting of large carnivores is banned in Romania but that didn’t stop Prince Emanuel von und zu Liechtenstein of Austria from shooting the country’s, and potentially the European Union’s, single largest brown bear.

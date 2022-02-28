@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Spain
+keywords: google
 ---
 
 Another agreement was reached in Spain, but this one pertains to many people’s go-to source for the day’s headlines: Google news.

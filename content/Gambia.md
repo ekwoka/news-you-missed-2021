@@ -1,6 +1,7 @@
 ---
 layout: article
 title: The Gambia
+keywords: rohingya lawsuit
 ---
 
 As part of their seemingly odd and certainly confusing court case agaisnt Myanmar, The Gambia won an important ruling this year.

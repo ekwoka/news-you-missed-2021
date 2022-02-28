@@ -1,6 +1,7 @@
 ---
 layout: article
 title: The Federated States of Micronesia
+keywords: nicole tamase challenger deep
 ---
 
 Pacific Islander Nicole Yamase became the first citizen from The Federated States of Micronesia to reach Challenger Deep––the deepest part of the Mariana Trench, which lies within the territorial waters of the country.

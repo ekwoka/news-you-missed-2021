@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Guinea-Bissau
+keywords: green sea turtles gps
 ---
 
 For the first time, male green sea turtles off the coast of Guinea-Bissau are getting GPS tags to better understand the endangered species' travel and feeding patterns.

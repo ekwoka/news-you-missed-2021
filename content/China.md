@@ -1,6 +1,7 @@
 ---
 layout: article
 title: China
+keywords: birthrates one child
 ---
 
 Birthrates in the world’s most populous country hit an all-time low since the country began tabulating the figure in 1978.

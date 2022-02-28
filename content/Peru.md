@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Peru
+keywords: pedro castillo
 ---
 
 For Peru’s conservative right, there’s been no escaping fear-inducing news in 2021, as a narrow election saw the swearing in of socialist president Pedro Castillo.

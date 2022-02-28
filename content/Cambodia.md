@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Cambodia
+keywords: lion Hima phnom penh
 ---
 
 Sometimes governmental overreach isn’t unpleasant, as is the case with a defanged and declawed lion named Hima.

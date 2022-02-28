@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Ireland
+keywords: general data protection whatsapp
 ---
 
 It also took a while for Irish authorities to come down on enforcing the European Union’s three-year-old General Data Protection Regulation, which is a comprehensive data privacy law.

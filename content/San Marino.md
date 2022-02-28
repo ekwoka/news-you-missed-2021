@@ -1,6 +1,7 @@
 ---
 layout: article
 title: San Marino
+keywords: olympic medal
 ---
 
 The 23-square mile, 60-square kilometer, enclave surrounded by Italy, earned its first Olympic medal.

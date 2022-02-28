@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Iran
+keywords: sea of oman oil tanker
 ---
 
 Perhaps the world could’ve used a few more nosey onlookers in the Sea of Oman this year as noted not-friends Iran and the US offered wildly different accounts as to what really happened when Iran seized an oil tanker just off its coast.

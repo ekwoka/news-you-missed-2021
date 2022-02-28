@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Australia
+keywords: 2032 Olympics
 ---
 
 Planning for the future is the 2032 Olympic committee, and specifically, Australia.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Hungary
+keywords: fudan university
 ---
 
 Issues with human rights records will be impossible to miss if the Chinese Fudan University is to follow through with building a campus in Budapest, Hungary.

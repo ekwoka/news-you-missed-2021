@@ -1,9 +1,10 @@
 ---
 layout: article
 title: Luxembourg
+keywords: amazon tax credits
 ---
 
-Smart is also the way to describe Amazon’s accountants.
+Smart is the way to describe Amazon’s accountants.
 
 The company had a record-breaking 2020 in Europe, hauling in some $50 billion, but it managed to pay zero in corporate taxes to Luxembourg, home to its European headquarters.
 

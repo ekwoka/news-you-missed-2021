@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Oman
+keywords: hydrogen plant
 ---
 
 Oman announced their aim to build a massive green hydrogen plant.

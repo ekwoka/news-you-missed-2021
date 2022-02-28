@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Greece
+keywords: heatwaves
 ---
 
 While heated geopolitical relations, and politicians’ hot air pose a threat in the Mediterranean, so too does literal heat.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Moldova
+keywords: gazprom
 ---
 
 Moldova is running out of gas too.

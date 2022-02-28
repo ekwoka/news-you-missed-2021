@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Saint Kitts and Nevis
+keywords: bee keeping
 ---
 
 In Saint Kitts and Nevis, the story is apiculture.

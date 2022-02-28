@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Slovakia
+keywords: aircar klein vision
 ---
 
 One car skipped the streets entirely on its way from the Nitra airport in Slovakia to that in Bratislava.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Thailand
+keywords: public fear free speech
 ---
 
 A move that may have large repercussions caught the eye of free speech advocates world-wide when Thailand’s government banned the dissemination of news that “causes public fear.”

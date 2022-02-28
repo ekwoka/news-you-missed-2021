@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Yemen
+keywords: marib trees
 ---
 
 Elegant, meticulously groomed and arranged trees and bushes aren't likely what one would expect along the war-town steets of Yemen.

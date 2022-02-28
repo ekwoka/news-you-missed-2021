@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Portugal
+keywords: work from home laws
 ---
 
 Portugal’s parliament pushed into the future of labor when it passed progressive measures to protect its increasingly online workforce.

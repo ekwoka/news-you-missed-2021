@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Ghana
+keywords: twitter employees
 ---
 
 In a move that signals the increasing geopolitical importance of Africa, Twitter hired its first employees on the continent in the country of Ghana, where freedom of speech protections and online freedoms made it an ideal location.

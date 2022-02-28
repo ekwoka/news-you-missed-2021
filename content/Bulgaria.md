@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Bulgaria
+keywords: swift response nato sunflower factory
 ---
 
 International collaboration was the context that informed an embarrassing development in Bulgaria.

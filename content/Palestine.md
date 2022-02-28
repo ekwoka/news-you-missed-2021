@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Palestine
+keywords: ben jerry ice cream
 ---
 
 In not-so-sweet news, Ben &amp; Jerry’s announced it would stop selling its ice cream in occupied Palestinian territories, making a very public corporate statement against the Israeli settlements there, which are not recognized by international law.

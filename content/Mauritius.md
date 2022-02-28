@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Mauritius
+keywords: chagos UN
 ---
 
 Sending mail to the Chagos archipelago became a bit more difficult this year.

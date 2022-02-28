@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Jamaica
+keywords: deported airbus
 ---
 
 When an immigrant commits a crime in the United Kingdom, they get deported, often by airplane.

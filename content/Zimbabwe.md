@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Zimbabwe
+keywords: zimsat satellite
 ---
 
 In the opposite of underground, Zimbabwe plans to launch its first satellite, the ZIMSAT-1, in February.

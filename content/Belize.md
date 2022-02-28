@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Belize
+keywords: conservation deforestation
 ---
 
 In Belize, officials are both making and saving history–ecologically, that is.

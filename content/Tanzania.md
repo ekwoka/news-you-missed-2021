@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Tanzania
+keywords: petra diamonds
 ---
 
 From new findings, to expensive and rare findings, Petra Diamonds, the British producer of pink diamonds donned by the Queen herself, has settled to pay 4.

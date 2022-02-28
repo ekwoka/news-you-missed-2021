@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Japan
+keywords: china russia ships
 ---
 
 Tensions are rising between Japan and the tandem of China and Russia.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Israel
+keywords: NSO group pegasus
 ---
 
 Spying seems to be a trend, but the United States told Israel they don’t want to play that game.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Switzerland
+keywords: marriage for all
 ---
 
 The Swiss are notoriously on time, but they were late to join the same-sex marriage party.

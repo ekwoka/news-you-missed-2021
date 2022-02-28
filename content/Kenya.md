@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Kenya
+keywords: animal population elephants
 ---
 
 Kenya is known as a wildlife wonderland, but just how many creatures crawl there was an unknown number until the country completed its first wildlife census this year.

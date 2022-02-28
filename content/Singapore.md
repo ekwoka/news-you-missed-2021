@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Singapore
+keywords: grab spac
 ---
 
 Have you heard of Grab or a SPAC? In this story, we have both.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Sweden
+keywords: magdalena andersson
 ---
 
 In Sweden, Magdalena Andersson won but wasn’t too happy with her first day on the job.

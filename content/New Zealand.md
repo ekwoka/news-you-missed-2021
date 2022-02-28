@@ -1,6 +1,7 @@
 ---
 layout: article
 title: New Zealand
+keywords: housing costs
 ---
 
 In an effort to speed up the development of more home building in New Zealand, to combat the 30% increase in housing cost and shortage of inventory, officials are cutting red tape and making it easier for developers to address a housing crisis so dire that it’s drawn international attention.

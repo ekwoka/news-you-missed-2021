@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Guatemala
+keywords: palm oil plantation
 ---
 
 When one thinks of palm oil plantations, Malaysia and Indonesia usually come to mind.

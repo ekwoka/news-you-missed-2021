@@ -1,6 +1,7 @@
 ---
 layout: article
 title: East Timor
+keywords: carbon waste
 ---
 
 At sea level, impoverished East Timor is at an interesting economic crossroads, exploring eco-tourism, offshore drilling, and now, carbon capture storage as a way to boost the country’s revenue.

@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Sierra Leone
+keywords: freetown waves extreme heat
 ---
 
 As the world warms, cities are getting hot, sometimes deadly hot.

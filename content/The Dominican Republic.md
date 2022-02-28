@@ -1,6 +1,7 @@
 ---
 layout: article
 title: The Dominican Republic
+keywords: marc feren claude biart
 ---
 
 A mafia fugitive did himself in by appearing on a YouTube cooking show in his adopted home of the Dominican Republic.

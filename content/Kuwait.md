@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Kuwait
+keywords: expatriates old
 ---
 
 In Kuwait, things aren’t looking quite as dire for those nearing the other end of the age spectrum as the country’s legislature reversed a ban on employing expatriates over the age of 60.
