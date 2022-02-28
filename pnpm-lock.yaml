@@ -24,7 +24,7 @@ specifiers:
   lunr: ^2.3.9
   markdown-to-jsx: ^7.1.6
   node-fetch: ^3.2.0
-  pnpm: ^6.32.1
+  pnpm: ^6.32.2
   postcss: ^8.4.7
   preact: 10.6.6
   preact-cli: 3.3.5
@@ -69,7 +69,7 @@ devDependencies:
   enzyme-adapter-preact-pure: 3.4.0_enzyme@3.11.0+preact@10.6.6
   eslint: 8.10.0
   eslint-config-preact: 1.3.0_41379bc407ff2da195916b200f9a884e
-  pnpm: 6.32.1
+  pnpm: 6.32.2
   postcss: 8.4.7
   preact-cli: 3.3.5_0ca37014794a34632b867f666c3e9539
   prettier: 2.5.1
@@ -8076,8 +8076,8 @@ packages:
       - typescript
     dev: true
 
-  /pnpm/6.32.1:
-    resolution: {integrity: sha512-vca5B8nbIHSCEIaV7UG1C15v54txazI9u3HhQ0OJad2u8DSzBaFnWiHN7D6EoDg6t5bu/yC1/lShtt+0uFJXFg==}
+  /pnpm/6.32.2:
+    resolution: {integrity: sha512-uPZDMVfB4SEygvfUJHBTNXUCrMCxkXV5QHaoEURCeHP5GDojKH21L1Onk2Qft+kYBmLCmipV3JCGfojSQV3epw==}
     engines: {node: '>=12.17'}
     hasBin: true
     dev: true

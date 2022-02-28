@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Antigua
+keywords: 
 ---
 
 A world record also hung in the balance this year as spectators along an Antiguan harbor anxiously awaited the appearance of Jasmine Harrison’s rowboat on the horizon.
