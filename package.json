@@ -1,6 +1,6 @@
 {
   "name": "newsreflection",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A site made for Webjam Winter 2022",
   "scripts": {
     "build": "preact build --prerenderUrls ./prerender-urls.js",
